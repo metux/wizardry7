@@ -1,0 +1,4316 @@
+Crusaders of the Dark Savant:  Documentation
+   Hint Book Also Available! Call 1-800-447-1230
+---------------------------------------------------
+Crusaders of the Dark Savant application software
+Copyright (c) 1992 by D.W. Bradley and Sir-tech Software, Inc.
+All Logos, printed graphic designs and printed materials
+Copyright (c) 1992 by Sir-tech Software, Inc.
+
+All rights reserved.  No part of this software or printed
+material may be reproduced in any way, or transmitted, in any
+fornm or by any means, electronic, mechanical, photocopying,
+recording, or otherwise without prior permission in writing from
+the publisher, except by reviews, who may quote brief written
+passages to be printed or quoted in a magazine, newspaper, radio
+or television.
+
+Wizardry (R) is a registered trademark of Sir-tech Software,
+Inc.;reg'd TM Canada.  Other trademarked names are the property
+of their individual owners and sue of such names without mention
+of trademark status is not a challenge to their status.
+--------------------------------------------------------------
+Credits
+
+Design, Writing & Programming:  D.W. Bradley
+Player's Guide & Other Writing:  Brenda Garno
+IBM, Macintosh and Amiga Technical Programming:  Gary Speegle
+Graphic Director & Lead Artist: Chris Appel
+Graphic Artists:  Suzanne Snelling, Daniel Mintor, B. J. Barrett,
+Renata Dolnick
+Storyboard Video Art Sequence:  Toshi Sato
+Title Page Video Sequence:  Derek Hardison
+Musical Score & Sound Effects:  Steve Miller
+Sound Programming:  Jeff Noyle, David Triggerson
+Manual Illustrations:  Chris Appel, Toshi Sato
+Lost Guardia Map:  David Miller, Chris Appel, Tim Yearlington
+
+Acknowledgments
+
+For meritorious achievements above & beyond the call of duty:
+James F. Shobert
+Macintosh Special Consultant:  John Mitchell
+Medieval Armarment Research:  Jeffrey Yette
+Documentation Intern:  Matthew Koscak
+Playtesters:  Mike Anderson, Todd Ashley, Andy Backer, James
+Barisse, Les Berkman, Marty Berkman, Gary  Brockelsby, Peter De
+Jager, Bill Dedi, Lawrence Ellis, Brenda Garno, Albert Halprin,
+Austin Hendricks, Matthew Koscak, Jim McDonnell, Joan "MaMa"
+McKeown, Zach Meston, Pumpkin Man, Jim Reagan, Monte Schultz,
+James Shobert, Linda Currie, Peter Spear, Rob Welander, Dr.
+Steven Yood
+
+
+
+
+------------------------------------------------------------
+
+MEMORY LANE
+
+Celebrating the  release of  Crusaders of the Dark Savant and the
+11th anniversary  of the  Wizardry series,  few computer software
+products -  and only  a handful  of computer  games - can compare
+themselves to  the success  and longevity of the Wizardry series.
+For all this and more, we owe a debt of gratitude to you.
+  It was  over 11  years ago,  in September  1981,  that  Proving
+Grounds of the Mad Overlord, the first scenario,  introduced  the
+gaming world  to computer  fantasy role playing and to the first-
+person perspective  view.   It was a revolution to say the least.
+Players felt  - and  saw -   for the first time the fantasy world
+through their  characters' eye,  heading down  a hallway, kicking
+open a door, or descending stairs to yet another level.  It was a
+radical   and important  departure from the handful of "top down"
+view and  text-based games of the day, and one which would have a
+lasting effect on the industry as a whole.
+  Proving Grounds  of the  Mad Overlord  also introduced computer
+enthusiasts to phased (as opposed to "real-time")  combat.  While
+real-time games and their passing flash tested players with their
+requirements  of   arcade-like  dexterity,  the  Wizardry  series
+instead sought  to challenge  the mind - allowing players time to
+consider their  moves, weigh  the alternatives and prepare a plan
+that will  lead them  to victory.  And,  while  a  phased  system
+emphasised strategy,  it also  opened the imagination's wonder to
+an adventure's potential and the intricacies of its story.
+     The Wizardry  series would  go on  to  inspire  a  movie,  a
+television show,  classical and  modern music and its own line of
+books, both comic and drama.  The series would be translated into
+Japanese, German,  Chinese, French  and Italian.   It  would move
+from the  Apple Computer  to embrace  MS-DOS, Macintosh and Amiga
+platforms.   The Wizardry  series has  won dozens of national and
+international awards - including admittance to the hallowed halls
+of Computer  Gaming World's  Hall of  Fame  - for its complexity,
+rich story lines and player involvement.
+  Proving Grounds  of the  Mad Overlord  set  the  precedent  for
+computer role playing in 1981.  Crusaders of the Dark Savant, and
+its predecessor  Bane  of  the  Cosmic  Forge,  have  raised  and
+redefined those  standards -  not just  for the  series, but  for
+computer  gaming   as  a  whole.    It  is  this  combination  of
+experience,  technology   and,  above  all,  dedication  to  role
+playing, that  has made all Wizardry games an adventure second to
+none.
+  And, it  is to  you that we owe our thanks - for this adventure
+we have  all been  on.  Thank you for your continued devotion and
+support.
+
+
+INTRODUCTION FOR NEW PLAYERS
+
+                  What is Fantasy Role Playing?
+
+Role playing  is just  as it  sounds.    You  play  the  role  of
+something or someone other than yourself.  Just like professional
+actors and  actresses, you  pretend to be a character, acting and
+reacting to situations as he or she would.
+
+In fantasy  role playing  (FRP), you  also pretend to be another,
+but you  do so  in a  fantasy world  of magic,  myth and medieval
+customs.   In this  fantasy world,  you create characters to role
+play called  Player Characters.   Just like you, these characters
+have their  own individual  strengths, weaknesses,  personalities
+and goals.  You guide them through this fantasy world watching as
+they   encounter   enchanting   creatures,   mythical   monsters,
+diabolical traps  and mesmerizing riddles.  And, of course, as in
+any situation,  your actions  in the present (and even your past)
+will ultimately affect your future.
+
+Player Characters  are created  with  the  abilities  and  skills
+necessary to deal with these fantasy situations.  For example, in
+Crusaders of the Dark Savant, you may create an Alchemist who has
+the power  to conjure spells that charm monsters.  You may create
+Samurai, Fighters  and Ninja  with weapons  sturdy enough to duel
+the most powerful dragons.
+
+You create  a group,  or party, of six characters in Crusaders of
+the Dark  Savant, so  that you  can achieve a delicate balance of
+power that  one person,  all alone,  couldn't  possibly  develop.
+You'll have  spell casters,  warriors and  thieves.   You'll have
+specialists in  the ancient  arts  of  thaumaturgy,  alchemy  and
+legerdemain.   And  you'll  watch  as  your  characters  grow  in
+experience and  power.   More importantly,  you  will  enjoy  the
+excitement of  seeing the  world through  the eyes  of an  Elf, a
+Gnome, a Mook or a Faerie.
+
+That's fantasy  role playing.   It's  a story  you  join  at  the
+beginning with  your party  of characters,  write as you progress
+through the  adventure and,  as you  turn the last page, savor at
+the end.
+
+
+                    Your Calling In Wizardry
+                                
+As the  soon-to-be captain  of a party of adventurers, your first
+stop in Wizardry is the Character Menu.  It is here that you will
+create characters  and form  a party  to lead  you  through  your
+adventure.
+
+Each of  your characters  has its own race, profession and gender
+along with  a mix  of skills  and statistics  that allow  them to
+perform successfully  as individuals  and as  a  team.    A  read
+through "The  Player Character"  section provides  an explanation
+for all a character's inner-workings.  Appendices A, B and C will
+introduce you to all Wizardry's races, professions and skills.
+
+
+         Creating a Party that will Survive and Succeed
+                                
+With the  variety Wizardry offers, it is sometimes challenging to
+determine just  what races  and professions  the  "best  possible
+party" contains.  Thankfully, some general guidelines do exist.
+
+ù            A party  can consist  of up  to six members, and any
+less increases the chances of disaster.  There are words for lone
+heroes battling  against  incredible  odds  -  "rest  in  peace."
+Developing a  well-balanced team with diverse talents is a key to
+success.
+ù            The first three members of a party generally deliver
+most of  the damage  to and  receive a  good dosage from the more
+hostile creatures  of the  Wizardry world.   Such  professions as
+Fighter, Lord,  Samurai, Valkyrie  or the  choice Ninja  and Monk
+fill these ranks well.
+ù            A party also needs someone capable of healing wounds
+and curing  the illnesses  that may befall its members.  A Priest
+or an Alchemist can provide the necessary spells.
+ù            A spellcaster  proficient in  damage and adventuring
+spells is also a member of a successful party.  Both the Mage and
+Psionic, who possess mighty and magical spells such as the deadly
+Mind Flay and Asphyxiation, meet this end.
+ù     To get into the many treasure chests and locked doors found
+throughout  the  Wizardry  world,  a  character  skilled  in  the
+thieving arts  comes in  quite handy.   Naturally, a Thief is the
+perfect candidate.   However, the Ninja, Ranger and Bard can also
+perform  well,   provided  you   develop  their  skulduggery  and
+legerdemain skills.
+ù    Lastly,  a party  should have  a diplomat,  someone who  can
+communicate well  with the  many residents  of Lost Guardia.  The
+Priest, Lord and Bishop have well learned this task, although any
+character with  a high  enough personality  and intelligence  may
+develop this skill.
+
+There are  many combinations  of professions  that meet all these
+requirements, and  below such  a sample party is listed.  For the
+beginner, this  party is  not only  easy to  create, it will also
+provide you with all the makings of success.
+
+Fighter:     Able to fight monsters, and works well as a scout
+Lord:            Able to  fight monsters,  and also learns Priest
+spells
+Samurai:     Able to fight monsters, and has the ability to learn
+Mage spells (though not as quickly as the Mage)
+Priest:          Heals party  members,  has  a  limited  fighting
+ability, and is skilled in Diplomacy
+Mage :       Empowered with  the deadly  Mage  spells,  and  also
+possesses many adventuring spells
+Thief:           Able to  pick locks  and learned  in the ways of
+traps and other hazardous devices
+
+One of  the most  satisfying aspects  of Wizardry  is creating  a
+party  with  a  powerful  balance.    Experiment  with  different
+combinations to  find what works best for you.  While this sample
+party covers  all the  basics, you  may wish  to examine the more
+"elite" professions.   They  often provide  a combination  of the
+necessar y  attributes in  just one character.  The Ninja has all
+the talents  of the  Fighter, can  pick locks like the Thief, and
+with training, can cast spells like the Alchemist.
+
+
+                        Saving Your Game
+                                
+Another saying  exists in  Wizardry for  players who fail to save
+their games  when they  have  made  good  progress  or  encounter
+potential danger.   This  saying is  "awwwggh!"   Each time  your
+party makes some good progress, save the game.  You can gauge how
+often to  save by  asking yourself  a simple  question:   "If the
+power went out or if my entire party died, would I want to repeat
+all that  I've done since I last saved the game?"  If your answer
+is "yes,"  seek counseling.   If  your answer is "no," then save.
+This way,  should your  characters meet  an unfortunate  end, you
+will be able to restore the game.
+
+
+                       Checking Things Out
+                                
+Wherever your party travels, be watchful of the ground, the walls
+and the  trees above  your head.   Look  for things  out  of  the
+ordinary, like  secret buttons,  and remember  clues given to you
+about certain  locations.   If you  save your game often, you can
+never search too much or be too curious.
+
+
+                         Making Friends
+                                
+Take time  to talk  with the many creatures in Wizardry.  Even if
+they won't  talk with  you the  first  time  you  meet,  consider
+accepting their  truce and  entering  negotiations.    Successful
+negotiations through  your diplomat  can bring  about a  heap  of
+knowledge to  you and  your party.   You  may learn  of an item's
+location or hear tale of a rumored treasure.
+
+
+                      If All Seems Lost...
+                                
+... don't  despair.  Thankfully, there are two different ways for
+you to  get help.   The Crusaders of the Dark Savant Playmaster's
+Compendium  will   provide  you  complete  answers  to  the  most
+challenging puzzles.   The  staff of the Wizardry Hotline is also
+on hand  to answer  any gaming  questions.  Their hours and phone
+number are listed inside the front cover of this manual.
+
+
+Introduction for Experienced Players
+
+                          Welcome Back!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+More importantly,  thank you  for coming  back.   Since you  last
+played Bane  of the  Cosmic Forge, a lot has changed to make this
+adventure, Crusaders  of the  Dark Savant.   Some of the changes,
+like the new graphics and the user interface, are obvious.  Other
+new features  aren't as  apparent and  are summarized below.  For
+further information  on any  feature listed  here, reference  its
+section of the manual.
+
+
+                       Multiple Beginnings
+                                
+Just how  did you  end Bane  of the Cosmic Forge?  The answer you
+provide to  that question will affect the whole of your adventure
+in Crusaders  of the  Dark Savant.   In  total, there  were three
+distinct endings  to Bane's  story.   In Dark  Savant, there  are
+three beginnings  linked to  those endgames,  and  an  additional
+fourth is  reserved for  those who  did not  finish Bane  or  are
+starting newly created parties.
+
+
+                 Changes to the Player Character
+                                
+Your characters  have always  been a  fascinating group,  and now
+there are even more facets that go into their making.
+
+ù            New Skills:  Diplomacy (Academia), Swimming, Mapping
+and Climbing (all Physical skills) are available to and needed by
+player characters on Lost Guardia.
+ù            Personal Skills:   Firearms, Reflexion, Snake Speed,
+Eagle Eye,  Power Strike  and Mind  Control may  be  learned  and
+practiced by  individual characters.  Complete information on new
+skills  and   personal  skills   may  be  found  in  Appendix  C:
+Character Skills.
+ù            Illness:   Your characters may also be affected by a
+new illness.   Remember that unknown terrain brings about new and
+interesting afflictions.   Complete  information on all illnesses
+is in the Player Character section of this manual.
+
+
+                Changes to Non-Player Characters
+                                
+Just as  your party  has its goals, knowledge and secrets, so too
+do the  many Non-Player  Characters on  Lost Guardia.   When  you
+first meet  a group  of NPCs,  you will likely see one or both of
+the new NPC options, Truce and Lore.
+
+TRUCE:   This option  is the pathway to negotiations between your
+party's  diplomat   and  the  other  party's  leader.    Peaceful
+negotiations generally  range from "I wouldn't talk to you if you
+paid me"  to complete  friendship when the NPC will talk with you
+freely.  Successful negotiations can also be forced and bribed.
+
+LORE:   NPCs may  offer this  option to your party when they have
+become somewhat  familiar  with  you  or  are  looking  for  some
+information. Selecting  the Lore  option,  the  NPCs  may  reveal
+certain information  to you,  but you  reveal your information as
+well.
+
+Since NPCs  are so  important in Crusaders of the Dark Savant, it
+is highly  recommended that  you read  the NPC  section  of  this
+manual.
+
+
+
+                 Locked Doors & Treasure Chests
+                                
+The first  time you  come across  a locked  door or happen upon a
+treasure chest,  you'll notice  something different  right  away.
+Instead  of   disarming  traps   "globally,"  your   thief   will
+individually deactivate each part of the trap.  For locked doors,
+the thief  will also perform his surgery, methodically idling one
+tumbler at a time.  On your Quick Reference Card, you will find a
+"QuickStep" for  both locked doors and treasure chests.  Detailed
+information can also be found in this manual.
+
+
+                          Magic Spells
+                                
+Of course,  all the  spells you have come to know and rely on are
+still with you in Crusaders of the Dark Savant.  However, now you
+can pack  a few extra points for the new spells such as Crush and
+Find Person  by using the extended, seventh power level.  All the
+spells are listed in the Magic Spells section of this manual.
+
+
+The Player Character
+
+Your player  characters are  the essence of fantasy role playing.
+Through their  eyes and  actions, you  will  discover  corridors,
+creatures and  lands long  since forgotten  by all but time.  And
+you will  delight in  their  achievements  as  they  uncover  the
+secrets of  Lost Guardia  and advance  from novices to masters of
+their trade.
+
+
+                         Base Statistics
+                                
+Just as you have a certain level of strength and intelligence, so
+too do your player characters.  Each player character is composed
+of eight base statistics and eight secondary statistics.
+
+Base statistics  generally influence the way a character acts and
+reacts within  Wizardry.   An intelligence  of 17,  for  example,
+would indicate an extremely smart character.  If that number were
+3, the  character may  have trouble distinguishing between a door
+and a fountain.
+
+STRENGTH (STR):   Affects  any maneuver  which requires  physical
+strength.   Everything from hurting an opponent to forcing a door
+off its hinges requires strength.  Strength also affects carrying
+capacity and stamina.
+
+INTELLIGENCE (INT):   Affects  a character's  ability to cast and
+learn spells,  determine traps  on treasure  chests and any other
+task which  requires mental  mettle.  Intelligence also affects a
+character's ability to learn new skills.
+
+PIETY (PIE):   The character's overall devotion to a subject or a
+field of  study, and affects the ability to develop skills and to
+learn new spells.  Piety also affects the amount of spell power a
+character gets  when he  or  she  gains  experience  levels,  and
+further affects  how quickly spell power is recouped.  Sometimes,
+in  spite  of  a  low  intelligence,  an  extremely  devoted  and
+persevering character  can learn  subjects just as quickly as his
+or her whip-smart friends.
+
+VITALITY (VIT):   A character's life force, it affects the amount
+of hit  points and  stamina a  character receives.  Vitality also
+affects the  ability to  heal and  be resurrected,  and helps  to
+protect characters from the effects of poison, disease, paralysis
+and death.   Some of these maladies in turn affect vitality.  For
+example, each  time your  character is cured of stoning or death,
+he or she loses a point of vitality.  When a character's vitality
+reaches zero, he or she cannot be resurrected at all.
+
+DEXTERITY (DEX):  The ability to dodge a missile, pop a trap on a
+treasure chest  and avoid a lance.  Overall, it is the ability to
+move the  body, hands  and feet  in response  to  any  situation.
+Since dexterity  is so  important to  movement,  it  is  directly
+related to  the character's  natural armor  class (the ability to
+dodge a  monster's hit).  In combat, dexterity affects the amount
+of times a character can hit a monster within a single attack.
+
+SPEED (SPD):   Is the length of time a character needs to perform
+any given  action.   The higher  the speed,  the faster he or she
+moves or  accomplishes a  task.   In combat, speed determines how
+many times  a character  can  attack  a  monster  in  one  round.
+Because speed  is important  to movement, like dexterity, it also
+directly affects the character's natural armor class.
+
+PERSONALITY (PER):   The  friendliness of a character, it affects
+the way  he or  she interacts  with NPCs.   Characters  with high
+personality  tend   to  be  extroverted  and  charismatic.    Low
+personality characters  are more  introverted, laid back and shy.
+A good  blend of  personalities will help your party to get along
+with the  many different  creatures within  Wizardry; while  some
+NPCs are  candid and  prone to  shaking hands,  others  are  more
+reserved and will appreciate those with similar attitudes.
+
+KARMA (KAR):   Affects everything your character does and acts as
+a sort  of  ethical  meter.    While  its  effects  are  somewhat
+mysterious, Karma  is, in  general, the  belief  that  what  goes
+around comes  around (or  follows you  around).   Characters with
+high karma  are generally  happy-go-lucky.   Characters with  low
+karma tend  to be  less care free, through no fault of their own.
+In fact, a blend of karmas is useful for a party.  NPCs with high
+karmas tend  to like  characters also highly inclined. Characters
+with low  karma tend to appreciate their low-karma kin, and might
+even go so far as to help them.
+
+
+                      Secondary Statistics
+                                
+Aside from a character's base statistics, many other facets weave
+together to  make your  character whole.  Determining how far she
+can travel before resting or how much damage he can endure before
+death, your character's secondary attributes are directly related
+to and affected by your character's base statistics.
+
+HIT POINTS  (HP):  Hit points represent the amount of damage your
+character can  endure before  death.  For example, let's say your
+character has  10 hit  points when  in full health.  In combat, a
+monster bashes  the character  and causes eight points of damage!
+Your  character's  hit  points  would  now  show  2/10,  the  "2"
+reflecting the  amount of  damage the  character can  now  endure
+before death,  and the  "10" to remind you of the character's hit
+points when  he or  she is  in  full  health.    Hit  points  are
+represented by the red bar in your character's icon.
+
+STAMINA (STM):   Stamina  is a  measurement of  your  characters'
+endurance.   They can  only walk  so far or fight so much, before
+they fall  flat on  their faces from exhaustion - and that's what
+happens if  stamina reaches  zero.   A fully rested character can
+fight harder  and hit  for more  damage than  a tired  character.
+When any  character's stamina  becomes low, it's time for a rest.
+Stamina is  represented by  the yellow  bar in  your  character's
+icon.
+
+EXPERIENCE POINTS  (EXP):   As your  characters slay monsters and
+perform special  tasks, they  become more  experienced  in  their
+trade and their art.  To reflect this experience, Wizardry awards
+experience points.   As  these experience  points build  up, your
+characters will gain experience levels (LVL).
+
+LEVEL (LVL):   Learning  the ways  of  Wizardry,  your  character
+becomes more  experienced.    To  reflect  this  experience,  the
+character earns  experience levels  which in turn give him or her
+greater powers and abilities.
+
+RANK (RNK):   As  your character  becomes more experienced, he or
+she will  earn ranks  within his  or her  profession.   The  rank
+serves as  a title  of sorts, and helps to identify the character
+as an outstanding member of the profession.
+
+MONSTER KILL  STATISTIC (MKS):  For the hack-slasher, this is the
+all important  statistic.   The number  you  see  represents  the
+number of monsters you have sent to the Grim Reaper.
+
+GOLD PIECES (GP): Gold is the medium of exchange for the world of
+Lost Guardia and allows you to trade with NPCs, buying or selling
+items, treasure or information.
+
+THE CANDLE  OF LIFE:   The  sun sets  and the  moon  rises;  your
+characters grow  a day  older.   When they  first begin Wizardry,
+your characters  will be  young and full of vigor, and the candle
+to the  right of  your character's  portrait will burn bright and
+its wick  will be  long.   However, each occasion your characters
+"Rest," they get a bit older (only by 8 hours). Eventually, their
+vitality may lessen and they may, in general, start to show signs
+of their  age.  Death will also affect a character's candle; when
+a character  dies, he or she loses a point of vitality.  However,
+since Wizardry  characters  begin  their  adventure  young,  they
+typically have a long life ahead of them.
+
+Clicking on  the Candle  of Life also shows you three additional,
+secondary statistics:
+
+ù  AGE:   Just like  you, your  characters age  as the days pass.
+The number shown represents a character's age in "human" years.
+ù  LIFE:   As a result of a monster's blow or a clumsy walk off a
+castle's tower,  your characters  may be in need of resurrection.
+The number you see reflects the life they are currently enjoying.
+ù  NEXT LVL:   As  characters gain  experience points,  they also
+gain levels.   This number informs you how many experience needed
+until each character reaches his or her next level.
+
+CARRYING CAPACITY  (CC):  All characters have a limited amount of
+weight they  can successfully  carry  without  encumbrance.    If
+characters carry  too much  weight, they are typically easier for
+the monsters  to hit,  will have  trouble fighting,  and will use
+lots of  stamina just  to move  their girth  around.   When  your
+character is  encumbered in  such a  way, Wizardry  will let  you
+know.   In the  character's review  screen you  will see Carrying
+Capacity's color has changed to:
+
+ù  light blue - 66% to 74% of the total capacity
+ù  yellow - 75% to 89% of the total capacity
+ù  red - 90% or more of the total capacity
+
+Characters can  carry more  than their  CC, though it's likely to
+result in exhaustion.
+
+
+                        Armor Class (AC)
+                                
+The suit  of armor  on the  right side  of a  character's  review
+screen shows  you how  well protected  he or  she  is  against  a
+physical or  magical attack.   This protection is known generally
+as armor class (AC).
+
+There are  three  different  armor  classes:  Body,  Natural  and
+Modifier.   Armor classes  range from a +10 (naked and vulnerable
+to attack)  to a -10 (covered with enough plate mail to construct
+a small  building).   The lower your character's armor class, the
+better.
+
+BODY AC:   Each  part of  a character's  body has  its own  armor
+class:   head, chest,  hands, legs and feet.  These armor classes
+show you  how well  a particular  body part  is protected against
+penetration by  a monster's weapon once the character has already
+been hit.   Even  if a  monster hits  your character,  its weapon
+might not penetrate the armor on that body part.
+
+NATURAL AC:   Shows the character's ability to avoid being hit by
+a monster.   Races  such as  the Faerie,  whose  small  size  and
+lightning movements make it difficult to target, have a naturally
+low armor  class.  Other races who are fast and dexterous share a
+similar ability.   Characters  who are  skilled in  Ninjutsu also
+have a naturally low armor class.
+
+AC MODIFIER:  Offsets the Natural AC and is consulted by Wizardry
+each time your character is hit.  There are three parts to the AC
+modifier.
+
+ENCUMBRANCE PENALTY:   If your character's carrying capacity (CC)
+is overloaded from hauling 40 potions, 10 shields and a pack full
+of helms  around, he's  not going to move too well, and therefore
+he's easier to hit.  In this case, you will see a positive number
+showing an increase in AC.
+
+SHIELD BONUS:   When characters protect themselves from a blow by
+using a  shield, they are harder for monsters to hit.  Characters
+who use  a shield in battle will see a negative number reflecting
+a decrease in AC.
+
+MAGICAL PENALTY/BONUS:   Some  magical items within Wizardry have
+the power to lower a character's overall armor class.  Others can
+raise it.  Magical modifiers cover the entire body.
+
+Should your  character be  both encumbered  and wearing a shield,
+Wizardry would  display the  average of the two.  It's a good bet
+to periodically  check the  modifiers individually,  just to make
+certain they aren't overloaded or otherwise encumbered.
+
+When Wizardry needs information on your character's overall armor
+class (natural  plus or  minus any  modifications), it  adds  the
+number in  parentheses to  the natural  armor  class  to  get  an
+overall picture  of how  well protected the character is.  In the
+case of a negative number, it's subtracted.
+
+For information  on equipping  your characters,  see  the  Player
+Character Possessions section of this manual.
+
+
+                            Illnesses
+                                
+Normally, a  character will  be "OK," suffering from no illnesses
+and generally healthy.  However, your character may at some point
+become less  than healthy,  and fall  prey to  one or more of the
+illnesses common on Lost Guardia.
+
+In general,  these illnesses  have three  affects:  the character
+will not  perform as  well, the  character will be easier to hit,
+and more  damage  will  be  done  if  the  character's  armor  is
+penetrated (your  health insurance  may increase  as well).  Some
+illnesses, however, have their own special side-effects.  For all
+of these  illnesses, except  stoning, disease  and death, resting
+may eventually  remedy the  condition.   Sometimes, in  spite  of
+rest, magical intervention is useful or required.
+
+AFRAID:   Afraid characters  will quake with fear at the sight of
+monsters, making  such characters  less  capable  and  confident.
+Afraid characters  may even try to run away from the party!  If a
+character is scared enough, a tiny field mouse will start to look
+like a huge, fire-breathing dragon with grimacing teeth.
+
+ASLEEP:   Sleeping characters  are incredibly easy to hit because
+they are  unable to  avoid being  struck.   If  hit,  a  sleeping
+character will  take up  to  double  damage,  but  will  wake  up
+immediately.   Of course, a sleeping character cannot participate
+in combat.
+
+BLINDNESS:   A blind  character can't  see what's going on and is
+more susceptible  to a  hit because of this.  In physical combat,
+it's not  likely he  or she will hit a monster without some luck,
+and magicians' spells could be wildly off target.
+
+POISONED:   As  the  poison  seeps  through  the  bloodstream,  a
+character becomes  sicker and  sicker.   Eventually,  without  an
+antidote or  some rest, the character will die.  Sometimes poison
+is so  potent, resting  will not  cure it  quickly enough and the
+character will  die before  it clears his or her system.  In such
+situations, an antidote is absolutely necessary.
+
+STONED:   Since your  character is  a statue,  he or she can't do
+anything but  stand there  and collect  bird droppings.    Stoned
+characters are easy to hit, but it's difficult to penetrate their
+stone.   Stoning, in  fact, might  be worse  than death.   Stoned
+characters lose  a point  of vitality,  and  when  cured  of  the
+stoning, they  may be  dead.  When you resurrect dead characters,
+they lose yet another point of vitality.
+
+INSANITY:   An insane  character is, at least for the time being,
+absolutely nuts.    For  magical  reasons,  his  brain  has  been
+scrambled like  an egg missing its side order of bacon.  You will
+have no  control  over  the  character,  and  may  find  yourself
+protecting other members of the party from him!
+
+DEAD:   A dead  character is exactly that - dead.  He or she must
+be resurrected by magical means, and when death comes a knockin',
+a point of vitality is lost.
+
+NAUSEA:   A nauseated  character may  (ahem) choke and gag and be
+helpless for  the remainder of the round.  Should this happen, he
+or she will be an exceptionally easy target.
+
+PARALYZED:   Since the character can't move, even to fight, he or
+she is  very easy to hit and can take up to double damage.  There
+is a  small chance, however, that the hit might just be enough to
+jolt the character's system back into action.
+
+IRRITATION:   Like that scratch you can never seem to reach, your
+characters will  become preoccupied trying to quell an irritating
+itch, and they won't fight as well while trying to reach it.
+
+DISEASE:   At first,  a diseased  character will  appear and  act
+healthy (you  will see  they are  diseased,  however).  In  fact,
+besides general  fatigue, he or she will feel just fine. However,
+as time passes, disease begins to ravage the character. Paralysis
+may set  in.  He or she may become blind or incapacitated.  Their
+energy and  their very  life force (vitality) may be drained from
+them. If  disease is  not cured  quickly, the character will soon
+erode to  nothingness. If not cured before death, you will likely
+resurrect a character who will just die again.
+
+
+Creating a Player Character
+                                
+With a  party plan  in hand,  it's time to create the adventurous
+brood that  will lead you into Wizardry and across the planet  of
+Lost Guardia.   From  Wizardry's main menu, select Character Menu
+followed by Create.
+
+
+                      Naming Your Character
+                                
+The first  step in  creating characters  is naming them.  You may
+name your  character anything  you like,  but the  name cannot be
+longer than  seven letters.   Additionally, another character may
+not share  the same  name.  Once you have entered the character's
+name,  select   "OK"  to  continue,  and  the  name  will  appear
+underneath the character's soon-to-be-filled portrait.
+
+On occasion,  we all  make typos.   If  you accidently named your
+character something  other than  intended, just select the Rename
+option.
+
+
+                  Selecting a Character's Race
+                                
+A character's race is an all-important selection.  It affects the
+professions your characters may pursue, their natural traits, and
+once selected,  it's for  good.  After selecting your character's
+race, you  will see  that he  or she  has been  given  a  set  of
+minimum, base  statistics.   A complete  description of character
+races is  in Appendix  A of this manual.  Statistics were covered
+earlier in the Player Character section.
+
+
+                 Selecting a Character's Gender
+                                
+After selecting  your character's race, you will select a male or
+a female  gender.   Males tend  to be  stronger than females, but
+female characters  have a higher personality and karma.  When you
+choose your  character's gender,  you will  see a modification to
+his or her base statistics.
+
+
+               Selecting a Character's Profession
+                                
+With your  character's race  and gender  determined, it's time to
+determine his  or her  career path.  Fourteen fields of study are
+available to  your character.  You'll find each fully detailed in
+Appendix B of this manual.
+
+The professions  your character  qualifies for  are determined by
+the number  of bonus  points he  or she is awarded.  Bonus points
+reflect the amount of training he or she has had and are balanced
+against a character's race to determine the professions available
+to him  or her.   Since  each profession has minimum requirements
+for entrance,  you may  or may not see every available profession
+on your screen.
+
+When you  select your character's profession, you will likely see
+an increase  in some  of your character's statistics.  The points
+that were  added to  the base statistics were automatically taken
+from your  character's bonus  point total  to allow him or her to
+meet the minimum entrance requirements for their profession.
+
+Sometimes, even  after you  have  met  the  requirements  of  the
+profession, you  may have  bonus points left over.  To distribute
+your extra  bonus points, select a statistic, and add or subtract
+points by  clicking on the arrows.  You can change the statistics
+any way  you like,  but you  must use all of the bonus points you
+have been  given.   Also, you  cannot push  a statistic below its
+original value or above 18.
+
+Keep in  mind that  it won't  do you  much good to have a muscle-
+bound Mage  or a weak, but intelligent, Fighter.  Add these extra
+points where they're sure to make a difference.
+
+
+                      Selecting a Portrait
+                                
+Wizardry comes  equipped with  many different faces for all kinds
+of characters.   To  view the  portraits, simply  click on either
+side of  the portrait  until you  find the right one for you.  If
+your character  decides to have a face lift later on, just choose
+the Edit and Picture option.
+
+
+       Selecting Skills & Distributing Skill Bonus Points
+                                
+When you  first create  a character,  his or  her skills  may  be
+rather underdeveloped.   Typically, they have but a few points in
+their professions'  area of  expertise.  To help you broaden your
+character, skill  bonus points  may be awarded and distributed in
+any of  his or  her skill  areas:  Weaponry, Physical & Academia.
+Each skill is fully described in Appendix C of this manual.
+
+Each skill  area receives  its own share of points that represent
+his or  her profession's learning. To distribute your character's
+skill bonus  points, just  select a  category by  clicking on it:
+Weaponry, Physical  or Academia.  Then, select any skill you wish
+to improve by clicking on its arrows. Remember, you cannot adjust
+the points  lower than  their original  amount or allocate points
+for one  skill area  in another,  and you must use all the points
+you have been given.
+
+
+                        Selecting Spells
+                                
+Depending on  your character's  profession, you  may be  able  to
+select some  initial spells  for his or her spellbook.  There are
+six realms of spells in Wizardry, and each offers different types
+of magic  to  a  spellcaster.    To  view  the  spells  you  have
+available, select each realm by clicking on it.
+
+When you  see a  spell you  would like  to learn,  click on it as
+well.   Then, select Learn, and the spell will be written to your
+character's spellbook.   Sometimes  your character may learn more
+than one  spell.   If so,  just repeat  the  process.    Complete
+descriptions of magical spells are in the Magic Spells section of
+this manual.
+
+
+                          Casting Karma
+                                
+The last  step in  creating a  player character  seals his or her
+good fortune.   When  you feel  the moment  is right,  click your
+fate.   No matter  what number  you  get  when  the  roll  stops,
+remember that  a low  karma isn't  necessarily "bad."   In  fact,
+within Wizardry,  both high  and low karmas are needed.  You will
+meet people  with both  extremes.  Since birds of a feather flock
+together, having  a mix of karmas in your party will likely prove
+beneficial.
+
+
+                      Saving Your Character
+                                
+When it's  all said  and done, Wizardry will ask you if you would
+like to  save your  character.   Undoubtedly, if you have created
+the world's  next Hercules,  you will  select "Yes."  However, if
+you have  created a fighter who can't tell the difference between
+his hands and his feet, select "No."
+
+
+Player Character Possessions
+                                                                 
+                                                                 
+Gold coins  line the  pockets of  successful adventurers, and the
+best of  swords, shields  and armor  adorn their bodies.  Freshly
+created characters,  on the  other hand,  are light  on gold, and
+have been  provided with  some elementary  armor and  weapons  by
+their training  masters.  These goodies, along with hundreds more
+you will  come to  possess, may be examined, equipped and used in
+many ways within Crusaders of the Dark Savant.
+
+When your characters start Crusaders of the Dark Savant, they are
+carrying a few basic items.  To make these items useful, you need
+to equip  and wear  them.   After all,  that nice  set of leather
+armor won't do you much good while it's still in the box.
+
+
+                    Equipping & Wearing Items
+                                
+To equip an item, click on it and drag it to the suit of armor on
+your character's  review screen.   The  item's name  will  change
+color to  show you  it has been equipped. Depending on the nature
+of the item, several things could happen when you equip it.
+
+ù  Items of  a protective nature will lower a character's Natural
+or Modifier AC when equipped.
+ù  Items  of   a  magical  nature  may  change  your  character's
+statistics or  other attributes.   Wizardry  will ask  you if you
+wish to "invoke" such items.
+ù  Items of a functional nature, such as weapons, may be equipped
+as primary or secondary.  When you select a primary weapon, it is
+held in  one of the character's hands, and is the first weapon to
+be used against a creature in combat.  You may select a secondary
+weapon, a  shield or another item to fill the secondary spot.  If
+your primary  weapon requires  two hands, you will not be allowed
+to select a secondary item.
+ù  Items  that   are  magically   cursed  will  "stick"  to  your
+character, cannot  be removed  without a  Remove Curse spell, and
+have a variety of effects on your character.
+ù  Items that cannot be equipped for one reason or another (race,
+gender or profession limitations) will "chime" and remain in your
+character's standard inventory.
+
+
+                           Using Items
+                                
+To use  an item,  click on  it.   Depending on  the item you have
+selected, Use  may do  one of  several things.   For  example, it
+you're looking  at a  potion, Use  may allow you to drink it.  If
+it's a  book, on  the other  hand, Use allows you to read it.  If
+the item  isn't usable  while you are reviewing your character, a
+door key for example, Wizardry will chime to let you know.
+
+
+                         Assaying Items
+                                
+With over  500 items  found in  Wizardry, you  would wear  out  a
+hundred pencils  trying to  keep track  of all  their properties.
+So, Wizardry tracks them for you.  To find out the features of an
+item, select the item followed by Assay.
+
+
+The diagram  above shows  you what  the various  sections of  the
+Assay screen  mean. Depending  on your character's artifact skill
+and the  general complexity  of the  item, you  may or may not be
+successful in your attempt to explore all the item's intricacies.
+As your  character becomes more skilled in artifacts, however, he
+or she will be able to discern more and more about Lost Guardia's
+items.
+
+Regardless of  the level  of artifact  skill, Assay will not show
+you the  power of  magical items,  except  potions  and  scrolls.
+Assay also  will not  show you  any special  power or curses that
+might be contained in the item.  Cast an Identify spell to reveal
+these aspects of the item in question.
+
+
+                          Merging Items
+                                
+Items that  can be joined or grouped are combined using the Merge
+option.   Depending on  the items  you are  trying to join, Merge
+will do one of several things:
+
+ù  Grouping -  In some cases, you can carry more than one item in
+an item  slot. Each item slot can hold up to 250 like items.  So,
+if you receive 300 arrows, 250 would be stored in one slot and 50
+would be  stored in another.  After you use up some of the arrows
+in one  slot, say  you now  had 200  of the  250 arrows left, you
+could merge it with the group of 50.
+ù  Joining -  Other items,  such as  a rope  and a  hook, can  be
+merged to form a single item.  To Merge an item, select the first
+item followed  by Merge.  Then, select the item you want to merge
+it with.   If  the items  can be  merged, you will possess a new,
+single item.
+ù  Loading Firearms  - Firearms,  such as  a musket,  need to  be
+loaded before they may be fired.  By merging powder & shot with a
+musket, the weapon will be ready to shoot.
+
+
+                  Putting Items in the Swag Bag
+                                
+Each character  carries his  or her  own swag bag:  a place where
+they store  things.  Whenever you review your character, you will
+see his  or her  swag bag resting against the back wall of his or
+her review  screen.   To "Swag"  an item,  select it and then the
+swag bag.   Each bag holds 10 different items.  Grouped or merged
+items such as arrows and missiles count as one item.
+
+
+                         Dropping Items
+                                
+If you would like to drop something, select the item and then the
+Drop option  to do  so.   The item  falls to  the ground  and  is
+available to  anyone who  passes by.  You may prefer to sell your
+unwanted items  to NPCs  or stash  them in  your swag bag in case
+you might  need them  later on.   Note:   All  items, even  those
+essential to your quest, can be dropped.
+
+
+                Trading Items Between Characters
+                                
+While on  an expedition,  one of  your characters may find a neat
+trinket   and wish  to give  it to  another character.  To do so,
+select the  item followed by a character to trade with (left side
+of the portrait for previous character and the right side for the
+next character).   When you come to the character of your choice,
+deposit the item in his or her inventory.
+                                                                 
+
+Other Character Menu Options
+
+
+                             Review
+                                
+Just like  Review in  the Master Options menu, this option allows
+you to inspect another character of your choice.
+
+
+                             Delete
+                                
+Wizardry allows  you to  create up  to 16  different  characters.
+However, from time to time, you may need to delete a character or
+two from  the roster  to make  room for  others.  Just select the
+Delete option  to do so.  Wizardry will show you the character in
+question, and  will ask  you to  confirm your  choice just so you
+don't send  your prize-winning  warrior packing  off to  the golf
+course.
+                                
+                                
+                             Rename
+                                
+If the  character you proudly named Genius is acting more like  a
+dolt, you can change his or her name using this option.
+
+
+                             Picture
+                                
+Wizardry offers  many different  portraits for the characters you
+have created.   If  you decide  you would  like  to  change  your
+character's looks later on, select Picture to do so.
+
+
+                             Skills
+                                
+To review  a character's  skills, click the shield hanging on the
+back wall  of his or her review screen followed by any skill area
+you'd like to review.
+
+
+                             Spells
+                                
+The altar  on the  floor of  a character's review screen contains
+all the  information about his or her magical inclines.  Click on
+the altar,  and you  will see  a magic  window.  You may not cast
+spells until  your expedition  begins, but  you can review what's
+available.   For further  information on  magic,  see  the  Magic
+Spells section of the manual.
+
+
+                              Exit
+                                
+To exit  a character's review screen, click to the right the suit
+of armor - right where you see "Exit" sign.
+
+
+
+Character Editing Options
+
+
+Once you  and your party begin your adventure, other options will
+be available  to your  characters.   To use  any of  the  options
+below, click  on your  character's nameplate  (below his  or  her
+portrait) while in his or her review screen.
+
+
+                        Change Profession
+                                
+When your  character feels  it's time  for a  change of pace, the
+Change Profession option allows him or her to switch careers mid-
+life.  To see which profession the character qualifies for select
+the Change  Profession option.  Keep in mind that each profession
+has its  own minimum  requirements, so  you  may  not  see  every
+possible choice  in your  selection (see  Appendix B:   Character
+Professions  for  information  on  minimum  entry  requirements).
+Select one  of the  professions you  see, or  none at  all.  When
+characters change profession, several things happen:
+
+ù  They immediately  begin  learning  the  skills  of  their  new
+profession, and stop learning those of the former.
+ù  They drop to experience level 1 in their profession, and their
+statistics drop  to meet the minimum entrance requirements.  When
+this happens,  it might appear that your dazzling Mage poured his
+brain on  the floor  when he  changed profession  to  a  Fighter.
+However,  that's   not  the   case.    When  characters  begin  a
+profession, they aren't adept in its ways, nor are they sure what
+to do.   As  they learn  the ropes,  however, they  begin to work
+faster and  better and  their statistics will increase to reflect
+their improvement within the profession.
+
+
+                         Change Portrait
+                                
+To change  your character's  looks while  adventuring, select the
+Picture option. Just like when you created your character, scroll
+through the pictures until you find the right one.
+
+
+                           Change Name
+                                
+To rename  your character  while adventuring,  select the  Rename
+option.  You can rename your character anything you like, but the
+name must  not exceed  seven letters,  and no other character can
+share the same name.
+
+
+
+Gaining Experience Levels
+
+
+After a  few healthy  encounters with  monsters, your  characters
+will gain  some experience  points.   When they  buiold up enough
+experience points, they gain experience levels.
+
+Gaining a  level is  a joyous  occasion.  On the screen, you will
+see your  character's windown  and an announcement that he or she
+has gained  a level.   Following this, you will automatically get
+all the news about changes to your character.
+
+1. The statistics may increase (they can decrease, too).
+2. He or she may gain hit points and stamina.
+3. His or her professional Rank may change.
+4. He or  she may  get a  skill bonus to apply in areas of choice
+(Weaponry, Physical,  Academia or  Personal).   remember  to  add
+points  to  your  magic  user's  area  of  proficiency  (Alchemy,
+Theosophy, Theology,  Thaumaturgy).   Otherwise, they  may  never
+learn any new spells.
+5. He or  she may  learn new  magical spells  and gain additional
+magic points.
+
+In some  cases, your characters may have survived such an amazing
+encounter that they will gain more than one level at a time.
+
+
+                      How Many Points Left?
+
+To determine  how many  experience points  your  characters  need
+until they  reach  the  next  level  of  experience,  review  the
+character and  click on  his or  her Candle  of Life.  There, you
+will see the points remaining.
+
+
+
+Non-Player Characters
+
+
+                   Welcome to the Lost Planet
+                                
+As your  party travels  the world of Lost Guardia, they will meet
+several or  all of the creatures, known as Non-Player Characters,
+who inhabit  the lands.   Some  will become their friends, others
+their adversaries,  in a  continual search to uncover the unknown
+whereabouts of the Astral Dominae.
+
+Just like  your characters,  these NPCs  have  their  own  lives,
+allies, foes,  thoughts, personalities, strengths and weaknesses.
+And, just  like you,  NPCs have  a good  memory.  Of course, NPCs
+also have  their own ambitions and goals.  NPCs control their own
+movements, just as you make decisions for your characters.
+
+
+                             Unpani
+                                
+Throughout the  galaxy, the  Umpani are considered to be fair and
+reliable traders,  selling and  buying wares  acquired  in  their
+extensive galactic  travels.    Their  network  of  merchants  is
+monstrously huge,  and is said to comprise a large portion of the
+space trade  industry.  The Umpani are also a rather militaristic
+race,
+ and  are considered  to have the greatest assemblage of military
+power  in the galaxy.
+
+
+                             T'Rang
+                                
+The T'Rang  are a  feared and  unscrupulous race  of  spider-like
+creatures. Quite  repulsive to  the common  eye, the  T'Rang  are
+strict competitors  with the  Umpani, and  will do  anything if a
+buyer is  willing to pay the price. While the T'Rang can never be
+fully trusted,  they still manage to control the greatest trading
+network in
+the galaxy,  surpassing even that of the Umpani.  The T'Rang will
+stop at  nothing to  procure what  they  seek,  and  have  always
+fulfilled their contracts, no matter how dirty the deed.
+
+
+                              Munk
+                                
+The Munk are a hefty race trained well in Alchemy and the Martial
+arts.   The Munk have diversified into two opposing factions: the
+"good," which  seeks to preserve the holy legends of Lost Guardia
+-and those  of the  "Dark Forest," who have degenerated to little
+more than bands of roughnecks.  All Munk vehemently
+oppose the blasphemous beliefs of the brotherhood of the Dane.
+
+
+                              Dane
+                                
+In  contrast to the squatty Munk are the mystical druids known as
+the Dane.    They are slim, almost frail looking, yet their hands
+weave such  powerful spells  that they  are avoided  by  all  who
+travel their  lands.   To the  Dane, the mind has always been far
+more important  than the muscle, an endless frontier of magic and
+mystical
+insight.   All Dane  vehemently oppose the blasphemous beliefs of
+the brotherhood of the Munk.
+
+
+                              Gorn
+                                
+Well-muscled and  skilled in  the arts  of melee combat, the Gorn
+army stands  as  the  greatest  native  fighting  force  on  Lost
+Guardia.   The Gorn  are known to be radically loyal to their own
+kind, and  while they  mix well  with the  others who live on and
+have come  to Guardia,  they are  intensely secretive about their
+private
+ lives.  The greatest secret of the Gorn is the location of their
+hidden castle.  While it is known to exist, no Gorn will speak of
+it, and  even the  best trackers have failed to uncover its path.
+Given the  Gorn's militaristic  abilities, perhaps it's good they
+didn't. The Gorn inhabit the forest lands separating the Munk and
+Dane, and  it is the Gorn army's might that has prevented the two
+from turning the planet into a battlefield intent on annihilating
+one another.
+
+
+                             Rattkin
+                                
+The Rattkin  dwell throughout  Lost Guardia's  forests and towns,
+rogues and  bandits  seeking  unwary  travellers  carrying  loot.
+Primarily a  race of  thieves, they  eventually seek  buyers  for
+their plundered  goods.   It is  rumored that  the  Rattkin  also
+dabble in  forms of  espionage for  pay.   After all, there is no
+race, some say, more
+capable of  such an  act -  their lean  styling, great speed  and
+perhaps a  decided lack  of ethics gives them the natural edge in
+the business.
+
+
+                            Helazoid
+                                
+The Helazoid  are the  most enigmatic  of the  native denizens of
+Lost Guardia.     The odd flying machine that lifts them from the
+ground and  allows them to soar through the sky with the birds is
+a continuous  source of  speculation.   While some believe it the
+work of  magic and  illusion, others  are assured it is real, and
+wonder just  what alliances  may have procured them such a unique
+steed.   Being sighted  only  on  rare  occasions,  there  is  no
+knowledge about their origin or how many may still exist.  No one
+has  ever   reported  finding   any  evidence   of   a   Helazoid
+municipality.
+
+
+                          Meeting NPC's
+                                
+Wandering through  a forest,  a creature  approaches your  party.
+You have  never seen  the likes  of it before, and engaging it in
+battle may  be a  bit hasty.   After  all,  it  might  have  some
+information  to   offer.    The  creature  appears  reserved  and
+uncertain of your ambitions as well.
+
+When you  first encounter  an NPC,  the creature  may be  neutral
+toward you  and your party, neither liking nor disliking you.  On
+the  other  hand,  it  could  be  wildly  hostile  or  generously
+friendly.   It relates  to your  characters individually and as a
+group, greeting  some members with pleasure, others with arrogant
+disdain.
+
+Initially, the creature may allow you only three of the available
+NPC options: Truce, Fight and Leave.  However, as you get to know
+one another and pass through negotiations using the Truce option,
+your options  and the  NPC's confidence  in you may increase.  Of
+course, the opposite could be true as well.
+
+
+                   Pause - Slowing Things Down
+                                
+When you  meet NPCs,  talk to  them or listen to their tales, you
+may want  to take  notes for  future reference.   By pressing the
+[SPACEBAR], the  game will  halt the dialog to allow you the time
+to take  notes.  Press the [SPACEBAR] again, or click anywhere on
+the screen to resume the conversation.
+
+
+                     The Art of Negotiations
+                                
+To gain  the trust  of any  creature who isn't familiar with your
+party, one or more sessions of negotiations may be necessary.  In
+general, negotiations  try to  bridge the  gap between "distrust"
+and "trust" that separates strangers.
+
+
+                      Stepping to the Table
+A silver tongue and a dashing personality, might get you on their
+good side  quickly.   For lesser  skilled diplomats, negotiations
+may take a little longer.
+
+Negotiations  begin   when  a  character  skilled  in  diplomacy,
+generally a  Priest, Bishop  or Lord,  accepts the truce offered,
+and greets  the other  party's leader.    At  the  meeting,  your
+diplomat will have four different options:
+
+
+                         Up-ing the Odds
+                                
+BRIBE:   Before actual  negotiations begin,  Bribe puts some cold
+cash into the pocket of the other party's leader in an attempt to
+up the  odds of  successful negotiations.   Your  party's leader,
+having had  face-to-face contact with the other party, determines
+the amount  of money necessary for a hopeful bribe and removes it
+from the  party's treasury.   Remember, however, sometimes it can
+be very  costly to  buy friendship.  When the bribe is completed,
+actual negotiations may begin (Peace or Force) or more bribes can
+take place.
+
+GIVE:   Just like  Bribe, Give  works to  increase the chances of
+successful negotiations.   However, Give allows you to pass items
+and other  trinkets that  you select from your party to theirs in
+hopes of  winning favors.    After  the  gift  is  given,  actual
+negotiations may begin (Peace or Force).
+
+
+                          NEGOTIATIONS
+                                
+PEACE:  The straight line method of negotiations that relies on a
+character's  diplomacy   and  personality  to  improve  relations
+between the  party and the other group.  Peace can, of course, be
+helped along by bribes, gifts and magical spells such as Charm.
+
+FORCE:   When your  diplomat's throat is sore, and your wallet is
+thin, you'll  soon realize there's only so much you can do to get
+the information  you want.   The  "tell me or I'll beat it out of
+you" approach  relies wholly  on your party's strength versus the
+other party's.  If you succeed in getting them to speak with you,
+it will generally leave a bad impression of your group with them.
+
+Should negotiations  go well,  the NPC  may befriend  your party,
+offering its  knowledge, lore  and goods.   On the other hand, it
+also may walk away from you, or if angered, may attack.
+
+Idealistically, it  would be  nice if  your party could truce and
+make friends  with every  creature on  this planet.  However, the
+political network  that exists  on Lost  Guardia  makes  this  an
+improbable task.   If  you don't  succeed in your best efforts at
+negotiations, you  may force  them to  talk to you or rely on the
+words of the network of friends you've built up.
+
+
+
+Non-Player Character Options
+
+
+Aside  from   exchanges  of  information  between  you  and  Lost
+Guardia's creatures,  NPCs offer  other options  that can benefit
+your party in its quest.
+
+
+                              Talk
+                                
+Allied NPCs  are generally  talkative individuals.   Some of them
+may be  willing to  aid you in your quest.  Others may be looking
+for information  that you  can provide.   Whatever  their motive,
+Lost Guardia  is filled with such creatures who are knowledgeable
+about the  area, its  lore and its creatures.  While they may not
+necessarily babble  off all  of their  knowledge, they  may share
+some of it provided you know what to ask.
+
+ù Who are you?
+ù What do you do?
+ù Ask them about things that interest you.
+ù Have you  heard any  rumors lately?   Often  the NPCs  may know
+several interesting tales and you might ask for additional rumors
+as well.
+ù Ask about topics they mention.
+ù When talking  with an  NPC, try speaking in complete sentences.
+It gives  the NPC  a better  chance  of  understanding  what  the
+strange aliens  in front  of it are  babbling about. If you ask a
+question, end it with a question mark.
+
+When you  select the  Talk option,  you will  be asked  to pick a
+character to  talk with  the NPC.   Type  in anything you wish to
+say.   "Hello" is  a good  start.   When you  have  finished  the
+conversation, simply type "Goodbye" or "Bye."
+
+
+                              Lore
+                                
+Travelling the same land as you, NPCs have learned much about it.
+Likewise, your  party has  collected its  share  of  local  news,
+events and  interesting tidbits  in its  travels.   When you  are
+looking to  exchange such  information with NPCs, you may want to
+select the Lore option.
+
+Since an  exchange of  Lore  reveals  all  that  your  party  has
+uncovered, it's  wise to  exchange this  information with  allied
+NPCs. Otherwise, you may inadvertently aid an enemy.
+
+When you  select this  option, the NPC and its group may begin to
+tell you  of their  adventures and what they've learned along the
+way.  They may offer you hints about an item you are desperate to
+find, or  perhaps they'll  give you  directions to a place you've
+never been.  Of course, they might deny knowledge of anything.
+
+
+                               Use
+                                
+Sometimes you  may wish  to use  a scroll or a certain item while
+conversing with  an NPC.   Wizardry  will ask  you  to  select  a
+character followed  by the item he or she wishes to use.  You may
+use items directly out of the swag bag.
+
+
+                              Trade
+                                
+Everyone needs to make a bit of money, and NPCs are no exception.
+Often, you  will find them holding some sort of mini garage sale.
+You may  buy items  he or  she has collected or sell items you no
+longer have a need for.  When you select Trade, Wizardry will ask
+you to  choose a  character to  do the  bartering.  You will then
+have four options:
+
+BUY:   When you  opt to  buy, you  will see  a list  of the NPC's
+available  items.      Each   item   along   with   its   general
+characteristics and  price will  be shown.   If you see something
+you like,  select it.   If  you have  enough gold,  the  deal  is
+complete.   If you  are short  on cash, you may use the Pool gold
+option to  get the  money you  need.   Occasionally, an NPC won't
+sell your  character an  item.   For example,  if the NPC doesn't
+like the  character doing  the dealing,  he may  simply refuse to
+part with any of his goods.  Further, NPCs won't sell a character
+an item  he or she can't use.  This way you won't waste your gold
+or load  your characters  down with useless items.  Sometimes you
+may be  forced to  steal an item you would like to buy:  the only
+character who  can buy  the item  happens to  be the  one the NPC
+can't stand.
+
+SELL:   If you  are out to make some money, selling your unwanted
+items is one of the best ways to do so.  When you select the Sell
+option, you  will be  asked which  item you wish to sell.  Select
+the item,  and if  the NPC is interested, a price will be quoted.
+If it sounds good, accept the offer.  Of course, you can politely
+decline, too.   Before you can sell an item, you must unequip it.
+Like your  characters, each  NPC has  a certain amount of gold to
+part with,  and he  or she  may not  be able to afford all of the
+items you  are offering.   Additionally, some NPCs may decline to
+buy your  items simply  because they don't care for the character
+doing the dealing.
+
+GIVE:  When you are feeling generous or sorry for an NPC, you may
+be compelled to give it something.  On the other hand, if you are
+facing an  NPC who thinks your party is dungeon slime, you may be
+able to  convince it to look at your group favorably by giving it
+a few  hard-earned gold pieces or a new, shiny shield.  Remember,
+however, an  NPC will  usually keep  the object  you give,  so be
+careful not  to accidently  part with  your  Turbo-Charged-Super-
+Maximum-Militant-Death Sword.
+
+
+                              Spell
+
+Some spells,  such as  Charm and  Mindread, can  be  particularly
+useful when  you Truce  or Talk  with an  NPC.  During the second
+stage of  negotiations, for example, cast a Charm spell to up the
+odds.   A Mindread  spell helps a magic user to read what's on an
+NPC's mind.   To  cast a spell, select Spell, a character to cast
+the spell  followed by  the spell  and its power level.  For more
+information on  the spells available to you, see the Magic Spells
+section of this manual.
+
+
+                              Pool
+                                
+When you  are looking  to purchase  an expensive  item or you are
+attempting to  bribe an  NPC, the  Pool option  can  be  used  to
+transfer all  of the  party's gold  to one character. Select Pool
+and designate a character to receive all the party's gold.
+
+
+                              Steal
+                                
+Can't afford  that sword?    "No  problem,"  says  the  character
+skilled in  Legerdemain, the art of the pickpocket.  Select Steal
+and choose  a character  to do the pilfering.  The character will
+attempt to  pilfer the NPC of some gold, or perhaps you might get
+that sword  you wanted.  Of course, you may not get away with it,
+and the  NPC will  no doubt  think less of your group or possibly
+attack.
+
+
+                              Fight
+                                
+For whatever  reason, your party decides a fight is in order, and
+selects the  Fight option.   As  with regular  encounters, combat
+options will  appear.  If you kill an NPC, he or she will be gone
+forever, along with any clues he or she may have given you.
+
+
+                              Leave
+                                
+Unless you  defeated the  NPC in combat, select Leave to end your
+meeting.
+
+
+
+Adventuring
+
+
+The essence  of Wizardry is adventuring.  It's time to accept the
+challenge and venture into the unsafe, but potentially lucrative,
+world of Crusaders of the Dark Savant.
+
+Successful adventures consist of at least eight stages:
+
+1.               Preparing a  well-balanced  party  that  becomes
+more experienced and powerful as they grow.
+2.               Exploring the  world and  searching for its many
+secrets.
+3.               Defeating hostile  creatures who would otherwise
+thwart your quest.
+4.               Resting your  party from  time to time to recoup
+stamina and magic power.
+5.               Finding various  objects you will need to assist
+you.
+6.               Meeting and  learning from Non-Player Characters
+(NPCs) of Lost Guardia.
+7.               Making notes  about what  you see  and hear  and
+using this  knowledge along  with intuition and logic to help you
+complete your quest.
+8.               Staying alive!
+
+Each time you resume your expedition and are ready to begin play,
+take a minute to check out your characters.  If anyone is without
+full hit  points or incapacitated, a spell or a few hours of rest
+might be advisable.
+
+
+                         Where to Begin?
+                                
+Once you  have created a blend of characters that you believe can
+triumph the rigors of the world, it's time to form your party and
+head off  to adventure.   Depending  on your  progress, you  will
+select one of the three routes below to get there.
+
+*  Starting a  New Game  with  Level  1  Characters.    From  the
+Wizardry main  menu, select  Add Party  Member.  From the list of
+characters, select  six to  form a party.  Then, select Start New
+Game. You  only use this option when you are beginning a new game
+with new  characters that  you have  created in  Crusaders of the
+Dark Savant.
+*  Resuming a  Saved Game.   If  you already  have an  expedition
+underway, select Load Savegame.
+*  Importing Characters.   If  you have  a party from Bane of the
+Cosmic Forge,  you can  import them  into Dark  Savant.  See your
+Quick Reference Card for further information.
+
+
+                 Ordering a Party for Adventure
+                                
+Since your  party walks  in a parade formation, it's important to
+determine - before you meet any monsters - just what the order of
+that  parade   will  be.     Essentially,  the  strong,  fighting
+characters or  those with  low armor classes should be toward the
+front.  Spell casters and weak or injured characters with low hit
+points should  be toward the rear.  To move a character, click on
+his or  her name  and select  another character  to switch places
+with.
+
+Generally, only  the first three party members will be subject to
+a physical attack by the monsters.  However, some monsters may be
+equipped with  ranged weapons  that allow  them to attack further
+into your ranks.  Other monsters can sneak up on your lowly Mage,
+who cowers  in the  sixth position, and scare the robes right off
+him.  A Giant may step over some of your characters to get at the
+weaklings in the rear.  Additionally, monsters may cast spells on
+any or all members of your party.
+
+
+                           The Terrain
+                                
+As you  explore  Lost  Guardia,  you  will  come  across  cities,
+outposts, rivers,  streams and  forests that  are  home  to  Lost
+Guardia's denizens.   You  may  also  find  a  good  many  gates,
+buttons, ladders and other landmarks that lead the way (or try to
+conceal the way) to these locales your party is eager to visit.
+
+
+                              Gates
+                                
+Whenever you  come across  a gate,  you can be certain it was put
+there for  a reason  - to  keep you out or something else inside.
+Should you  come  across  a  gate,  and  find  your  party  at  a
+standstill, try  to use  keys or items your party has come across
+or search the area for possible hidden fixtures.
+
+
+                             Buttons
+                                
+Your party  enters a  room, and  your Detect  Secret spell  is in
+effect.   Its eye  starts to  blink as  you search  a wall  - and
+that's when  you notice it.  The button that's so small it nearly
+blends into  the rock  itself.   Whenever your party comes across
+such a button, you can be certain, in most cases, that it will do
+something when pressed.  Just what it will do is anybody's guess!
+To press the button, simply click on it or use the Search option.
+
+
+                             Levers
+                                
+Much like  buttons, only  more visible, levers generally activate
+something or  another.   When your  party finds a lever and can't
+resist the  temptation to  touch it,  click on  it or  select the
+Search option.
+
+
+                 Climging Up Ladders & Into Pits
+                                
+Leading the  way to  an upper  floor or  into the  recesses of  a
+dungeon, ladders are typically a most welcomed find.  To climb up
+or down a ladder, click on it.
+
+Ambling down  a forest's  path, you  see a  gaping  hole  in  the
+ground.   It's possible,  of course,  that something  or  someone
+could be  down there.  Should you decide to climb into its depth,
+click on  the pit  to  climb  down.    Unlike  climbing  ladders,
+Climbing skill is essential as you scale the pit's sides.
+
+
+                          Locked Doors
+                                
+Locked doors  are found  throughout the  Wizardry world.  Perhaps
+the door  leads the way to a Alchemist's chamber or even a king's
+cache.   Wizardry will  inform you that the door is "Locked," but
+don't be disheartened.  It's possible for your characters to open
+such doors.   For  complete information  on locked doors, see the
+Locked Doors section of this manual.
+
+
+                         Treasure Chests
+                                
+For gold,  swords, shields  and all  sorts of  riches, few things
+compare to  a treasure chest.  Of course, finding a chest is only
+the half  of it.   Creatures often place traps on chests so their
+goods won't  be easily  lifted.    For  complete  information  on
+disarming chests, see the Treasure Chest section of the manual.
+
+
+                         Abandoned Items
+                                
+Your scout  spots it  almost immediately  - a  sword resting by a
+tree.   One look  at its  golden hilt  and the gleam of its blade
+draws your  party  toward  it.    Whenever  you  come  across  an
+abandoned item that you would like to have or at least check out,
+click on  the item  and select  a character  to receive the item.
+The item  may be something your party or another has left behind.
+On the  other hand,  it could  be a  cursed item or a booby trap.
+Abandoned items  always appear in the lowest right-hand corner of
+your screen.
+
+
+                              Water
+                                
+To beat  the heat  of a  day's adventuring,  there's nothing like
+wading in  one of  Lost Guardia's streams.  Of course, her oceans
+and rivers are inviting, too.  Before your party sets your sights
+on  a  dip,  however,  check  your  character's  swimming  skill.
+Characters with  less than 10 skill will likely drown from fright
+before they're even in over their heads!
+                                                                 
+
+
+Adventuring Options
+
+
+To start  Wizardry, follow the directions on your Quick Reference
+Card.  In no time, you will see Wizardry's title screen, and then
+you will be at the Master Options menu.
+
+The Master  Options menu  is the  gateway to  all Wizardry has to
+offer.   It's also  the place  where all  adventures begin.  Just
+click anywhere on the screen to view the options available to you
+and your party.
+
+
+                         Character Menu
+                                
+If this  is your  first stay in Crusaders of the Dark Savant, you
+may need  to visit  the Character  Menu.   Here, you  can  create
+characters to  lead you  through your  adventure.   The Character
+Menu, along  with all  its options,  is explained  fully  in  the
+Creating a Character section of this manual.
+
+
+                          Add Character
+                                
+From the  hopeful roster of characters you have created, use this
+option to  pick those  who will  join you  on your  journey  into
+Wizardry.   The characters you select will form a party - a group
+of up to six adventurers gathered together to explore the world.
+
+When you select the Add Character option, you will see the names,
+races and professions of all your characters.  To add a character
+to the party,  select his or her name and then select  "OK."  The
+member's icon  will appear  on the screen declaring him or her an
+official party  member.   You can add up to five more characters.
+Should you accidently select the wrong character, click Cancel or
+a more desirable character instead.
+
+
+Caution: Use  Add Character only if you are beginning Wizardry or
+want to  start over  with a  level 1  party.   This option  loads
+characters from  a roster  of level  1 characters.   If  you have
+already begun Wizardry, use the Load Savegame option instead.
+
+
+                          Load Savegame
+                                
+If your  party has  already explored some of Wizardry's world and
+you have saved your game, you can resume your adventure where you
+left off  using the  Load Savegame  option.  When you select this
+option, Wizardry will ask you to confirm the name and location of
+the save  game.   For specific  information on  loading your save
+game, refer to your Quick Reference Card.
+
+
+                          Review Member
+                                
+If you  would like  to spend  a little  time one-on-one with your
+characters, select  the Review Member option; you may also select
+the character's  portrait.   The character's  window will  appear
+along with  all his  or  her  attributes;  these  attributes  are
+explained fully  in the  Player Character  section of the manual.
+When you  have finished  reviewing your character, select Exit to
+return to the Master Options menu.
+
+
+                         Dismiss Member
+                                
+To remove  a character  from your  party, use  this option.   The
+character leaves the ranks and heads back to the barracks.
+
+
+                         Start New Game
+                                
+Once your party's ranks are filled, and you are certain the party
+you see before you is the one for you, it's time to head off into
+the world of Wizardry.  Select Start New Game to do so.  If you
+already have an expedition underway, use the Load Savegame option
+instead.
+
+
+                          Configuration
+                                
+Using this  option, you can customize Wizardry to your computer's
+specifications.   You will  find complete  information  for  your
+computer and setup on the Quick Reference Card.
+
+
+                        Import Characters
+                                
+If you  have played  Bane of  the Cosmic  Forge, and have a party
+eager to continue their adventure, use this option to get them on
+their way.  You will find complete information on party transfers
+on your Quick Reference Card.
+
+                                                                 
+
+It's a  curious world  full of  creatures, places  and  treasures
+unlike any  you have  ever seen before.  As your party adventures
+on Lost Guardia, you'll see a screen similar to the one below.
+
+Across the  top of the main play screen, you will see six crystal
+balls.   It takes  only a touch of magic to make them come alive,
+reminding the  party of  a spell  in effect  or otherwise helping
+them in  their adventure.  From left to right, each magic crystal
+does the following:
+
+ù            ENCHANTED BLADE:   Empowers  swords  with  an  extra
+"umph" so  that it's  easier to  hit the  monsters and  penetrate
+their armor.
+ù            ARMORPLATE:   Provides magical  armor protection  to
+the party by lowering everyone's armor class.
+ù            MAGIC SCREEN:   Gives  the party extra resistance to
+magical spells  by reducing the power or effectiveness of magical
+spells that come the party's way.
+ù          DETECT SECRET:   Magically  detects  the  presence  of
+hidden items,  unseen passages  and the  like, and  "blinks" when
+your party passes such mysteries.
+ù          DIRECTION:   Gives the  direction (north, south, east,
+west) the party is facing.
+ù          LEVITATION:   Lifts the  party several  inches off the
+ground and  provides protection  from falling into things such as
+pits (every  little bit  helps when  you fall  on your face).  It
+also  augments   a  character's   climbing  skill.    Of  course,
+Levitation will not save your party if they wander off the top of
+a mountain.
+
+Each time  your magic  user casts an adventuring spell, a crystal
+ball glows  with its  power.   There are  numerous spells you can
+cast to  achieve this  effect, and all are described in the Magic
+Spells section of this manual.
+
+In the  center of  the Wizardry  screen, you  will see the action
+window.   Absolutely everything  that happens  on, in  and around
+Lost Guardia will happen within this window.
+
+
+                         Character Icons
+                                
+To the  left and  right of the action window are your characters'
+icons, complete with all of their vital statistics.
+
+First, you  will see  your character's portrait and below it, his
+or her name and profession.  To the right, Wizardry shows you the
+primary and  secondary weapons  currently equipped;  a plain hand
+indicates the  character is  using his  hand as  a weapon, has no
+weapon at all, or is using a weapon that requires both hands.
+
+Just beneath  each character's  weapons is  his  or  her  current
+condition.   With any  luck,  your  character  will  be  OK,  and
+therefore have  no condition  displayed.  However, there are many
+maladies within Wizardry that can affect characters in one way or
+another; each  is fully explained in the Player Character section
+of  the  manual.    Should  one  of  your  characters  become  so
+afflicted, the malady's icon will appear.
+
+The most  important parts  of your character's icon are the three
+bars that  indicate his  or her  general well-being.    Each  bar
+represents a percentage of the total amount of health, stamina or
+magic power available to the character.
+
+ù            The left (or red) bar in your character's icon shows
+your character's  current health  or hit points remaining.  If he
+or she  gets hurt,  the bar will drop.  A quick healing spell can
+restore your condition.
+ù            The middle  (or yellow) bar reflects the character's
+current stamina.  As a character becomes tired, the bar drops.  A
+few hours sleep can generally fix him up.
+ù            The right (or blue) bar rises and falls to show your
+character's current,  overall magical  power.   As each  spell is
+cast, the  bar falls.   An  evening or  two of sleep will help to
+rejuvenate his  or her spell power.  A character who possesses no
+magical power  will always  be at  100% -  but,  that's  100%  of
+nothing.
+
+
+                            Movement
+                                
+Across the  bottom  of  the  screen  is  Wizardry's    interface.
+Whether it be a simple step forward or a quick healing spell, all
+game commands are carried out through the this pentagram.
+
+There are  three methods  of movement  in Crusaders  of the  Dark
+Savant: Turn,  Sidestep and   Climb.   Two of these methods, turn
+and sidestep, are available all the time and directly through the
+arrows.   The third method, climb, is available only when you see
+a ladder  you would  like to climb up or a pit  you would like to
+climb into.
+
+TURN:  The top three arrows represent Turn movement.  Turn allows
+your party  to turn in the direction of the arrow pressed or, for
+the arrow  pointing upward, advances your party one step forward.
+If you  turn to  the right  or to  the left,  you occupy the same
+space, but face in the corresponding direction.
+
+SIDESTEP:   The bottom  three arrows represent Sidestep movement.
+Sidestep allows your party to move over one space or backward one
+space in  the direction  of the  arrow pressed.   Your party will
+still be  facing in  the same direction as you were before taking
+the step.   For  example, if  your party is facing North, and you
+select the  left arrow,  your party  would move  one space to the
+left, but still face North. Sidestep is very helpful when you are
+searching long walls or dense forests for secret entrances.
+
+CLIMB:   A ladder  or another object that can be climbed requires
+Climb movement.   When  you come across a pit, for example, click
+on it, and down your party goes.  Be warned, however.  Before you
+go down  into pits  that are  home to  who knows  what, save your
+game.
+
+
+                          Party Options
+                                
+As you explore Lost Guardia, you will occasionally need to cast a
+spell, take  a nap  or use  an item.  Within the outer circle and
+two lower  corners of the Wizardry interface, you will find icons
+for all these options.
+
+
+                               Use
+                                
+Just like  Use in a character's review screen, this option allows
+you to put certain items, like keys and potions, into action.  To
+use an  item, select the option, and a character who has the item
+you would  like to use.  Wizardry will then ask you to select the
+item.  If the item you select has no particular use at that time,
+then "No Effect" will be displayed.  Other items, like books, can
+be used only when reviewing your character.
+
+
+                            Spellbook
+                                
+Shortly after  your party  stumbles through  a  batch  of  thorny
+roses, you might need to cast a healing spell or two.  Select the
+spellbook to  do so.   Of course, you may select the spellbook to
+cast any  spell -  adventuring, healing or even damage spells (if
+you want to fireball a tree, but it's not recommended).  For more
+information on  the spells  available and  casting of spells, see
+the Magic Spells section of this manual.
+
+
+                             Search
+                                
+You are walking down a pleasant path when you notice what appears
+to be  recent excavation  - your  Ranger tells  you something  is
+buried in  the ground  below.   Whenever you  feel  so  inclined,
+select Search  to check  the party's immediate area:  the wall or
+tree you  are facing,  the floor you are standing on and the dirt
+below.
+
+Sometimes  you   will  find  your  bounty  purely  by  intuition.
+However, unless  you are a psychic (you found Elvis), a character
+skilled in  scouting is  a great  help.   Magic users  also offer
+assistance in  the form  of the  Detect Secret  spell.    Like  a
+magical scout, Detect Secret scans the party's area and looks for
+anything out  of the ordinary.  When your magic user casts Detect
+Secret, one  of the  crystal balls  along the  top of your screen
+will begin  to glow  with a  knowing eye.  When the eye twinkles,
+search the  area right  away.   Although you  may not necessarily
+find an item, a twinkle definitely means something is up.
+
+
+                              Open
+                                
+Whenever your  characters come  across a locked door or a secured
+treasure chest,  select the  Open option to get into its goodies.
+Depending on  what you  are trying  to open, your characters will
+have several  options.   See the  Locked Doors or Treasure Chests
+section of this manual.
+
+
+                              Rest
+                                
+After a hard day's adventuring there's nothing quite like a quiet
+campfire to  soothe the  soul.   Whenever you select the Campfire
+icon, your characters bed down for the night.  As they rest, they
+replenish some  of their  stamina, cure their wounds, recoup some
+from nasty  conditions and  replenish a  portion of their magical
+power.   Each occasion  your characters  are able  to fully rest,
+they receive  approximately eight  hours of  sleep along with all
+its benefits.  You may wake your characters early by clicking the
+mouse.
+
+Of course,  resting isn't always a wonderfully peaceful occasion.
+Occasionally, just  when your characters are getting comfortable,
+a group of monsters may notice them.  Before you know it, they're
+kicking up  the bed  sheets and  combat begins.    With  all  the
+rustle, some  members of your party may wake up to participate in
+combat.   However, other  characters, the  really sound sleepers,
+may remain  asleep.   Your magician might be able to help in such
+situations by casting the Watchbells spell.
+
+Warning:  If you have a poisoned, diseased or cursed character in
+your party,  try to  cure the  character before  you rest.   Some
+poisons, diseases  and curses  are so  strong that they will kill
+the character  before the  neutralizing effects  of sleep  have a
+chance to work.
+
+Caution: As  your party  sleeps and  dreams of  sugarplums, other
+creatures may  be on the move.  If you are hot on the trail of an
+important item  or lead,  you may want to stay awake.  You can do
+so with  food or  Stamina,  Restfull,  Heal  Wounds  or  Healfull
+spells.
+
+
+                        Moving Characters
+                                
+Sometimes,  a  member  of  the  front  line  becomes  injured  or
+incapacitated, and  you will  want to move him or her to the rear
+to recuperate.   To  do so,  just select  the  character's  name.
+Next, Wizardry  will ask  you to  select another character.  When
+you do, the two will change places.
+
+
+                          Disk Options
+                                
+For all  those non-fantasy  activities, select  the Disk  option.
+Here, you  can  save  your  game,  change  the  configuration  of
+Wizardry or perform other disk options.
+
+ù            RESUME PLAY:   Takes  you back  to game play without
+saving the game or making any other changes.
+ù            CONFIGURATION:   Allows you to customize Wizardry to
+your computer  and your  exact likings.  See your Quick Reference
+Card for further information.
+ù            SAVE GAME & RESUME:  Saves your characters' progress
+to disk,  and brings  you back  to game  play.   As all  Wizardry
+veterans know,  saving your  game is  an essential part of a good
+gaming strategy.   Just  in case  your party dies or falls into a
+deep pit, you will have your save game to rely on.  Each time you
+save your  game, Wizardry will allow you to give your save game a
+file name  (or to  keep the same name) and a folder or directory.
+Refer to your Quick Reference Card for further information.
+
+Warning:  When  Wizardry  saves  your  game,  it  overwrites  any
+previous save  games with  the same  name. You  may want  to  use
+different file  names or  different disks  to preserve older save
+games.
+
+
+
+ù            SAVE GAME  & QUIT:   Saves your characters' progress
+and returns  you to  the introductory  Master Options menu.  From
+there, you  can quit  the game  or select  Load Savegame to begin
+play again.   Just  like the  Save option  above,  you  can  tell
+Wizardry where  to save  your game  and what  to name  the  file.
+Refer to  your Quick  Reference Card for further information.  If
+you save  your game  to a floppy disk, it must be formatted ahead
+of time.
+ù            QUIT -  NOSAVE:   For those  dreaded times when your
+party meets something that's just too much to handle, select this
+option.   Wizardry will return you to the Master Options menu and
+forget about whatever happened.
+
+                                                                 
+
+Locked Doors
+
+
+Your thief,  or any  character skilled  in skulduggery,  pulls  a
+bundle of tools from his backpack, sets them beside the door, and
+begins to  shuffle the  lock's tumblers.   Across  the top of the
+Pick Lock  window, you  will see these tumblers shifting, falling
+into and  out of place.  Depending on the complexity of the lock,
+it may have one or more tumblers.
+
+As the  tumblers shift,  the chance  boxes below  change color to
+reflect the  current position of each tumbler.  When a chance box
+is green,  the tumbler  is in the proper place - press its button
+to keep  it that way!  Once you have successfully calibrated each
+tumbler, the  door will  open allowing your party to get into the
+goods.
+
+Occasionally, however,  you may  flip a  tumbler when it's yellow
+and slightly out of whack.  In most cases, the tumbler will begin
+to shift again, allowing your thief another chance.  On the other
+hand, if  the tumbler  is red  and totally out of place, you will
+likely fail  in your  attempt; there's  also a chance the tumbler
+may jam  in the lock!  If that happens, you won't be able to pick
+the lock,  and without the strength of tyrannosaurus rex, it will
+be hard  to force  it open.   Of  course, magicians  can  provide
+assistance if  they have learned the Knock-Knock spell, or one of
+your characters may have a key to let you in.
+
+
+                      Keys & Other Goodies
+                                
+Sometimes you  will need  a special item or a key to open a door.
+If you happen across such a door, and you think you have a key or
+a special item handy, select the Use option to open it.  Wizardry
+will ask  you to  select the  character with the item followed by
+the item itself.  If you are successful, the door will open.
+
+
+                       Forcing a Door Open
+                                
+Stepping toward  the door,  your party  prepares to smash it from
+its very hinges.  As soon as you press against the door, you will
+see the combined strength of your party against that of the door.
+Green (light) shows the measure of your party's strength.  As the
+party  presses   against  the  door,  their  strength  grows  and
+occasionally  slips  as  the  struggle  continues.    Red  (dark)
+indicates the  strength of the door, its lock and the hinges that
+hold it  in place.  When the party's strength exceeds that of the
+door, click  Heave to  give it  that final  shove.    You're  in!
+Eventually, if  your characters  strain long  enough,  they  will
+slump to the floor, entirely exhausted.
+
+Of course,  there's always  a chance that your final heave may be
+less than  you expected  it to  be.  Unlike picking locks, if you
+fail to force the door open, it will not jam.
+
+
+                   Knock-Knockin' on the Door
+                                
+If you  can't seem  to find the right item, the door is jammed or
+your thief  isn't doing  so well, there's still a chance that you
+can open  a locked  door.   Select the  Spellbook option.   Next,
+choose a character who has the Knock-Knock spell.  Cast the spell
+(remember the  power of the lock on the door when you are casting
+your spell),  and hopefully, if the spell power is enough, all of
+the monsters' efforts to keep you out will have been in vain.
+
+Knock-Knock also works to open jammed doors. When you cast Knock-
+Knock, you  will see  either "Success" or "Failure."  If it's the
+latter, try  increasing the  power level.   However,  if you  see
+"Jammed," it  means you have encountered a magically jammed door,
+against which  Knock-Knock is powerless.  You will need a special
+item to open it - or you may never get in.
+
+
+
+Treasure Chests
+
+
+                      The Nature of a Trap
+                                
+Traps on  Lost Guardia  are a tricky lot.  However, through magic
+or skill,  these devices can be manipulated allowing the party to
+get into the chest without pesky complications.
+
+For the  most part,  traps on  treasure chests consist of several
+devices.   These devices  are rigged in such an order that, well,
+when an  unsuspecting creature opens it - BLAM!  Those studied in
+Skulduggery, however, can recognize the trap, how it's assembled,
+and ultimately, how to disassemble it.
+                                
+Each symbol in the Device Window corresponds to a particular
+device button.
+
+
+                          Step By Step
+
+For a  well-trained looter, the Disarm option is the gateway to a
+chest's bounty.  When you select Disarm and a character to do the
+pilfering, you will see
+ the Disarm box below.
+
+                                
+
+
+
+1.           Click Inspect and hold the mouse button down.  While
+you do,  your thief  looks at  the trap, checking its devices and
+their arrangement.   Skill  plays a  part in  an inspection, too.
+You will  see the colored box change showing a reflection of your
+thief's skill:
+
+GREEN & YELLOW:  You will do as well as your skill level allows.
+RED:  You will set the trap off!
+
+2.           With Inspect still down, look at the contents of the
+device window.  It helps to write down what you see.  Here's what
+the symbols mean:
+
+   Symbol    Means
+     *         Part of the trap
+     -         Not part of trap
+     ?         May be part of trap
+
+
+3.           With information in hand, scroll through the list of
+possible traps  to see  which one  is  closest  to  your  thief's
+inspection  pattern.    For  example,  if  your  thief's  Inspect
+revealed this:
+
+             . .  . It  shows that  he  believed  the  first  two
+devices were  attached, and that he was certain the rest were not
+involved.    So,  scrolling through  the list,  look for  a  trap
+pattern in  the device  window that  matches (or  at least  comes
+close) . . .
+
+
+             
+Remember, when  you're trying to match the inspection to a trap's
+pattern, play elimination.  First, rule out those that don't have
+the attached  devices you  are looking for.  Then, rule out those
+that have  devices you're not looking for.  Check the "?" (may or
+may not be there from the inspection) last.
+
+4.           Using the  device window  as  a  guide,  follow  the
+numbers to  disarm the  trap.   For example, if the device window
+shows a  "1" for  the second  device in  the top  row, press that
+button first,  then the  button marked "2" and so on.  Of course,
+just like  an inspection,  luck and  skill play a part.  You will
+see their combination in the color box:
+
+GREEN:       You will deactivate the device successfully.
+YELLOW:      You will not deactivate the device, but won't set it
+off either.
+RED:         You will set the trap off!
+
+             If your character is successful in deactivating each
+of the trap's devices, the chest will no longer pose a danger and
+will open.
+
+
+
+
+
+On the other hand, if your character bungled the disarming, or if
+the trap wasn't what you suspected, you may set the trap off.  If
+it doesn't  blow up,  try disarming  it again or simply leave the
+chest alone, though you won't get the loot.
+
+
+                              Open
+                                
+If you suspect there is no trap on a chest, or if you are feeling
+really adventurous,  you can  just yank  it open.   If there is a
+trap present,  however, it  will most certainly blow up!  So, you
+should always select Disarm and Inspect a chest for traps first.
+
+
+                              Spell
+                                
+As with  many things,  magic comes  in handy when you are dealing
+with a  treasure chest.   Divine  Trap, a magical mental probe of
+the trap's  gizmos,    greatly  enhances  everyone's  ability  to
+inspect the  trap and  to determine what's active inside.  Select
+the Spellbook,  a character  with this  spell,  and  then  choose
+Divine Trap  and its  power level.   After  Divine Trap  is cast,
+subsequent inspections will reveal more about the trap.
+
+Knock-Knock also allows you to get to the goodies inside a chest,
+but a  bit differently  than Divine  Trap.  By magically altering
+the chest's  lock and  neutralizing the  trap inside, Knock-Knock
+attempts to open the chest directly.  You don't even need to know
+what the trap's name is!  However, there is a percent chance that
+Knock-Knock will  fail in  its attempt  to open the chest and set
+off the trap in the process.
+
+
+                               Use
+                                
+Some items  within Wizardry allow you to open a chest without the
+hassle and  potential danger  of disarming  its  lock.    If  you
+believe you  have such  an item,  select Use.   Next,  select the
+character with the item followed by the item itself.  If the item
+is successful in its attempt, the chest will open.
+
+
+                       Divvying Your Loot
+                                
+After you have opened a treasure chest (for better or for worse),
+each member  of your  party may  receive a portion of its bounty.
+Select any  item you  are interested in, and character to receive
+the item.   If  there is  more than  one item  in a chest, simply
+repeat the  process.   Of course,  if you  want to  leave an item
+behind, you  may select  "Leave" at  any time to drop the item to
+the ground.
+
+
+
+Combat
+
+
+Your party  leisurely wades  at the bank of a river, resting some
+from the  day's activities.   It  is shortly thereafter that your
+thief screams  as he's  pulled deeper and deeper into the clouded
+waters.  Welcome to combat.
+
+Well before your party wandered to Lost Guardia, creatures of all
+kinds called  this locale their home.  You will find them waiting
+behind doors or see them lurking about dark recesses.  As you may
+have anticipated,  a meeting between a group of monsters and your
+party is  frequently without milk and cookies.  However, a combat
+situation comes with fun and challenge and plenty of it.
+
+
+                    Identifying Your Opponent
+                                
+Most of  the time,  you will  only be told what the monsters look
+like, not  what they  really are.  For example, you may encounter
+an "Unseen  Entity" but  you won't know whether it's a ghost or a
+flying bed sheet.  Characters who have studied mythology have the
+best chance of identifying the monsters' true identity.
+
+
+                      The Course of Action
+                                
+Combat proceeds in rounds.  Each round, both you and the monsters
+select a  course of  action and  Wizardry acts as the mediator of
+the action.   Combat  is over  when either  side runs  away or is
+totally defeated.
+
+When you  come upon  a group  of monsters  bent on  stopping your
+party in  their tracks, each of your characters will have several
+options.   These options  are based  on  the  character's  class,
+skills, weapons  and position  in the party.  So it's likely that
+each character's  combat options  will be slightly different than
+his or her fighting mates.
+
+
+                     Selecting Your Opponent
+                                
+Sometimes, you  will encounter  only a  single group of monsters.
+Other times,  you will  think you  have walked  into their family
+reunion!
+
+When you  encounter more  than one group of monsters, select your
+opponents by  clicking on  their group  in the  monster  listing.
+Until the  opponent runs  away or dies, the group you select will
+be your  "default" target.   Of  course, you  can  always  select
+another group.   Depending  on the  character's position  in your
+party and  the length  of his or her weapon, some monsters may be
+out of reach.
+
+
+                              Fight
+
+Swords are  drawn and shields are readied.  The Fight option pits
+your characters  against the  monsters in  hand  to  hand,  armed
+combat.   Their weapons, strengths and weaknesses come into play.
+Of course,  skills and hundreds of other factors also play a part
+in the attack.
+
+When your  character opts  to fight  and swing  her weapon  at  a
+monster, three different questions are raised:
+
+1.     Did she hit the monster?  Her chances of hitting a monster
+are generally known as "To Hit."
+2.     If she  hit the  monster, did  she penetrate  its armor or
+skin?   Her chances  of cutting  through these layers is known as
+"To Penetrate."
+3.     If she  penetrated its  armor or  skin, was  any  physical
+damage done?  Known as just plain "damage," it's the bottom line.
+
+Depending on your characters' skills and weapons, you may be able
+to choose  from one  of several  methods of fighting.  The method
+you choose  is called  a fighting mode.  (To see which modes your
+weapons use,  Assay them.)   Each  mode has its own strengths and
+weaknesses, and relies heavily on the Weaponry skill of its user.
+
+The basic  mode is  a Swing,  a side-to-side  slicing blow.   The
+chart on  the next  page compares  the other  available  fighting
+modes to the Swing in three areas:
+
+TO HIT:   The likelihood characters will hit a monster with their
+weapon. For  example, if  characters  select  melee,  they  swing
+wildly hoping  to hit  something.   Obviously the odds to hit are
+down when  you are not really looking where your weapon is going.
+Yet, a  Swing, covering  a wide arc and with direction has a good
+chance of a hit.
+
+TO PENETRATE:   The  likelihood your character will penetrate the
+monster's armor  after   a  successful  hit  has  connected.  For
+example, a  direct Thrust  into a  monster's leather  armor has a
+better chance of penetrating it than a glancing Swing.
+
+DAMAGE:   Once a  blow  has  successfully  hit  the  monster  and
+penetrated its  armor, the  damage  column  compares  the  actual
+amount of  physical damage  inflicted  upon  the  monster.    For
+example, while  the odds to hit a monster are down with a "Melee"
+attack, if you connect, Melee does double damage!
+
+Damage inflicted is directly affected by character's strength.
+
+For characters  with the  Kirijutsu skill,  any fighting mode may
+deliver a critical kill.  For Monks and Ninja fighting with their
+hands or  feet, the  Punch and  Kick modes  also have a chance of
+delivering a critical kill.
+
+
+                         Ranged Weapons
+                                
+With all  said and  done, the  character  is  ready  for  action.
+Crusaders of the Dark Savant, acting as a game master, calculates
+the character's  performance (over  one hundred  calculations are
+completed), and reports damage your character has caused.
+
+Certain weapons allow characters to fight monsters far away (long
+range);  other  weapons  require  close  contact  (short  range).
+Wizardry will allow you to select any monster group. However, you
+will only  have the Fight option available if they are within the
+range of  your weapon  (see the  chart below).  Monsters' weapons
+have their own ranges, too.
+
+Range allows         Members   to attack   Groups
+Short (S)             1-3                   1-2
+Extended (E)          All                   1-2
+Thrown (T)            All                   1-3
+Long (L)              All                   All
+
+
+                  Multiple Attacks and Strikes
+                                
+While in the fight mode, your character may attack a monster more
+than once,  and may  hit the  monster several  times in  a single
+attack.
+
+MULTIPLE ATTACKS:   After  attacking a  monster  with  a  primary
+weapon (the primary attack), a character with speed or experience
+and skilled  in Weaponry  may have  a  secondary  attack.    Your
+character would  have two  separate attacks  in a  round!   Well-
+trained warriors  can have  up to  4 attacks in a single round, 2
+primary and  2 secondary.  If characters hold a two-handed weapon
+or a  shield, then  they can  have, at  most, 2  primary attacks;
+there's no  hand left  to hold  a secondary  weapon.   Without  a
+secondary weapon, the secondary attack is forfeited.
+
+MULTIPLE  STRIKE:    Dexterous  characters,  or  those  that  are
+experienced, may  be able  to swing  more  than  once  during  an
+attack.  When characters get a multiple strike, you will hear the
+swing of the weapon more than once testifying to your character's
+finesse.
+
+
+                              Parry
+                                
+Parry allows  your characters to take a defensive or passive role
+in combat.   But  remember, they  are still  quite involved.  The
+characters may  be hit, and under certain circumstances, they may
+hit back.
+
+BLOCK:   Allows characters  to use  their shield skill to protect
+against attacks.   Block  is useful  for characters whose weapons
+are not  within a  monster's range.   To  select this option, the
+character must  have a  shield equipped  (without a  shield, this
+option will  not appear).   The  effectiveness and  success of  a
+block, however,  depends on  the character's  shield  skill.    A
+character who blocks cannot be hit for double damage.
+
+DODGE:   Being extremely  watchful of  all  weapons,  spells  and
+missiles and,  when the time comes, moving aside for them.  While
+dodging, the character is harder to hit, and cannot be struck for
+double damage.
+
+GUARD:  Waiting for the monsters to attack, and giving them a bit
+of their  own medicine  if they  do.  If a character is on guard,
+and a monster does attack, he or she will jump out, regardless of
+the position  in the  party, and  attack the  monster right back.
+Guard is  useful for flying animals, such as bats, who can attack
+anyone, or for characters who cannot normally reach the monsters.
+When a  character is  on guard,  his or her armor class stays the
+same.
+
+REST:   Catching your  breath.   A resting  character will recoup
+some stamina,  but he  or she  will be  much more  vulnerable  to
+attack while  resting.   This option is useful if there is little
+danger or  if the  character is about to pass out anyway (if your
+character passes  out, it's  typically for  a while.   Rest  them
+before they  collapse, and they'll definitely have enough stamina
+to get through the next round.
+
+
+                              Hide
+
+Characters with  the Ninjutsu  skill can  attempt  to  hide  from
+monsters during  combat.   If they  successfully hide,  they  can
+remain hidden or ambush the monsters.  Since the monsters weren't
+expecting an  attack, they  are easier  to hit,  and if hit, they
+incur quite  a bit  of damage.  Characters may remain hidden even
+after they launch a surprise attack especially if they're able to
+kill an opponent before it screams to its companions.
+
+
+                              Spell
+                                
+You are  hoping to heal a character of a pesky poison, or perhaps
+you are determined to turn a ferocious giant into dust.  When you
+select Spell,  you will  see your character's spellbooks.  Choose
+the realm, the spell, its power level and it will be cast against
+the party  you are  currently targeting.  For healing spells, you
+will need to select a character.  The spell will be cast sometime
+during the  round of  combat.   Remember, some spells attack only
+one monster  within a  group while  others attack several groups.
+Check out  the Magic  Spells section  of this  manual for further
+information.
+
+
+                               Use
+
+Certain items  within Wizardry  have the  power to cast spells or
+perform magical  feats in other ways.  You may use these items in
+combat against your opponents or for the benefit of your party by
+selecting the  Use option.  Of course, a character who decides to
+use an item should have a reasonable level of skill as well.  The
+Scribe skill,  for instance,  comes into play when using scrolls.
+The Artifacts  skill is used for invoking the powers of magically
+charged items.   The  Music skill is used by the Bard whenever he
+or she plays an enchanted instrument.
+
+When you  opt  to  use  an  item,  a  list  of  your  character's
+possessions will  appear.   Select the  item  you  wish  to  use.
+Depending on  your character's  Scribe, Music  or Artifact skill,
+there is  also a  chance the  item's power  could fizzle  out  or
+backfire on your party.
+
+
+                             Breath
+                                
+Dracons, because  of their  genetic make  up, are able to breathe
+acid upon  their opponents.   Select  this option  to invoke  the
+Dracon's inborn  ability.    Breath  attacks  require  a  lot  of
+stamina, so be careful not to exhaust the Dracon.
+
+
+                               Run
+                                
+On occasion,  you may  encounter something  that's just too tough
+for your  party to  handle.   When you  do, the Run option may be
+your only  hope.  Your characters won't get any experience points
+for the  combat, but they may come out with their lives.  Even if
+one  character   selects  Run,   the  whole  party  will  follow.
+Characters who  are  running  have  their  backs  turned  to  the
+monsters, so  it's easier  for the  monsters to  hit them, and if
+hit, characters  may take  extra damage.  Monsters may also block
+your character's  escape  route,  and  the  party  will  have  to
+continue combat  or attempt  another getaway.  Even if your party
+escapes, there's a chance that they may run into another group of
+monsters.
+
+A good  strategy for  potential sprinters  - keep  your  fighting
+characters fighting while those in the rear run.  As they do, the
+fighters defend their backs, and may save you and your group lots
+of potential damage.
+
+
+                              Move
+
+Occasionally, characters  may become  hurt or  fall  asleep,  and
+because of  their malady,  they are  unable to  fight or  protect
+themselves.   The Move  option allows  you to  put a  strong  and
+healthy character  in front  of an  injured one to protect him or
+her.  You may also move a strong character from the back ranks to
+the front  to deliver  a deadly blow.  When characters move, they
+may move to any position.  If they advance, all of the characters
+behind their  new position  will retreat  one rank.  On the other
+hand, if  a character retreats, everyone moves ahead by one slot.
+Moving requires  extra stamina, and leaves the character prone to
+monster attack.
+
+
+                              Equip
+                                
+You have accidently equipped your prize warrior with a toothpick,
+and it  is his  primary weapon.   Obviously,  you will need to do
+something - equip a better weapon!  In cases such as this, select
+the Equip  option.  Wizardry takes you to your character's review
+screen where  you can  change equipment,  drop  equipment,  Assay
+items or  take something  out of, or put something into, the Swag
+Bag.   Since you  are juggling  all your equipment in the heat of
+combat,  you   are  using   up  valuable  stamina  and  are  more
+susceptible to attack.
+
+Equip is  also used  by  characters  who  need  to  reload  their
+firearms during combat.  Since the character must first Merge the
+firearm and its ammunition, reloading firearms occupies an entire
+round.
+
+While you  are equipping,  you may  view your character's spells,
+but you  may not  cast them  (use Spell instead).  Of course, you
+can also  use Equip  to look over your character's statistics and
+other attributes while in combat.
+
+
+                         Cancel & Backup
+                                
+If you  are having  second thoughts  about your  selections,  the
+Cancel option  allows you  to start all over again beginning with
+the first  character.   Backup, on the other hand, just takes you
+back to the previous character's selection.
+
+
+                         Terminate Game
+                                
+Strolling down  a forest's  path, your  level  2  characters  are
+greeted by  what appears  to be the compilation of all your worst
+nightmares.   In one  round (or  maybe  it  was  one  swing,  you
+couldn't be sure), he knocked out your first three characters.
+
+At times  such as  this, the  Terminate Game  option is your only
+recourse.   When you  select this  option, the game ends, and you
+return to the main menu.  Wizardry forgets whatever has happened,
+and allows you to pick up where you last saved your game.
+
+
+
+Combat Modifiers
+
+
+Occasionally, your  character may become afflicted by one or more
+maladies.   Without  question,  these  conditions  can  affect  a
+character's performance  in combat.    For  example,  a  sleeping
+character can't attack monsters or defend himself - neither can a
+character who  is carrying  seven suits  of plate  mail.    These
+conditions are generally known as modifiers.
+
+
+                            Illnesses
+                                
+The illnesses that inflict your characters as they travel on Lost
+Guardia can  affect their  performance in combat.  Some illnesses
+can also  make them  very prone  and open  to  attack.    All  of
+Wizardry's maladies  and their  effects are  fully covered in the
+Player Character section of the manual.
+
+
+                           Encumbrance
+                                
+It takes  strength and  stamina to hold up a 20 pound sword.  Add
+to that  200 pounds  of plate  mail, and  it'll be  a feat if the
+character moves at all.  Encumbrance is what your character faces
+if he  or she carries too much.  By reviewing your character, you
+can see  his or her total carrying capacity along with the weight
+he or  she currently  holds.   Encumbrance affects  a character's
+ability to  hit a  monster and  a character's  armor class in the
+following ways:
+
+Percentage Used of  Chance         Increase in
+Carrying Capacity   to Hit         Natural AC*
+0% to 49% (gray)       None              None
+50% to 66% (gray)
+67% to 75% (lt. blue)
+76% to 90% (yellow)
+91% and up (red)
+
+*      Shown in parentheses by the character's armor
+       class.  "Review" the character to see its affect.
+
+
+                       Statistical Bonuses
+                                
+Depending on  a character's  statistics, he  or she  may excel in
+certain areas when compared to his or her opponent.  For example,
+suppose your  intelligent Monk  is battling a dumb 'ole rat.  The
+Monk, because of its high intelligence, may be able to outwit the
+rat in  its every  move.   Likewise, characters who are faster or
+stronger  than  their  opponents  may  be  able  to  out-move  or
+overpower  them.     Your   characters'  strength,  intelligence,
+dexterity and  speed as  compared to that of the monsters they're
+battling, may  improve their  odds, or  lower them which somewhat
+hinders their success.
+
+
+                        Magical Modifiers
+
+Thanks to  genetics, some  characters are  naturally resistant to
+certain types  of spells.   As  characters progress, they develop
+certain resistances  and immunities  as well.  When hit by such a
+spell, the  character may  fully resist  its effects  or may take
+less damage  than the  rest of the party.  To see which character
+races offer such resistances, check Appendix A:  Character Races.
+
+
+
+Magic Spells
+                                                                 
+
+Within the  Wizardry world,  there are  few who do not revere the
+powers of  magic.   Some are  so taken  by its  mystery that they
+devote their  lives' study  to its  ways: the Psionic, Alchemist,
+Priest and Mage.
+
+
+                             Realms
+                                
+There is  a total of 96 spells, divided into six different realms
+that represent  the substance  of the  magical universe:    Fire,
+Water, Air,  Earth, Mental and Divine.  Each of these realms gets
+its power  from the  "element," such as fire or water, over which
+it presides.   Within the Water realm, for example, you will find
+a spell  to increase a character's stamina (replenishing water to
+the body),  and yet another which freezes water and hurls it in a
+gust at  opponents.    A  listing of  spells by  realm and  power
+follows this section.
+
+
+                           Spellbooks
+                                
+From the  six realms  of spells,  four different schools of magic
+were formed, each complete with its own spellbook.
+
+*  The  Alchemist  sought  to  use  the  natural  powers  of  the
+elements, and  learned to mix them together for their healing and
+combat use.  Alchemists spells cannot be silenced.  The Ninja and
+Ranger also practice this form of magic.
+*  The Priest  gathered the  elemental powers  of the divine, and
+developed spells  to heal  his fellow  man and  protect him  from
+enemies.   The Bishop,  Lord and Valkyrie also practice this form
+of magic.
+*  The Mage  channeled the  elemental forces  for their wrath and
+collected an  assemblage of  spells which brought the fury of the
+elements upon  his opponents.   The Samurai, Bard and Bishop also
+practice this form of magic.
+*  The Psionic  fathomed the  powers of  the mind, and learned to
+use its  wonder for  both healing and damaging means.  The devout
+Monk also practices this mental art.
+
+An  individual  listing  of  each  spellbook  follows  the  realm
+listing. Each spellbook has been alphabetized for easy lookup and
+use.
+
+
+                      Learning Spell Levels
+
+Each realm  is broken down into seven spell levels (level 1 Earth
+spells, level  2 Earth  spells and  so on).   Your  spell casters
+typically learn one level at a time, but may occasionally learn a
+level 2  spell before  learning all  of level  1.   Generally,  a
+spell's  level  represents  its  complexity,  overall  power  and
+difficulty to  cast.   The more skilled your magic user in his or
+her area  of interest,  the higher  the level  of spells they can
+learn.
+
+
+                      Casting Power Levels
+                                
+Each spell  has seven  different power  levels that are used when
+casting the  spell.   In general, the higher the power level, the
+more powerful  the spell  and the  more skill required to cast it
+(Oratory).   For damage-oriented  and healing  spells, the  power
+level will  affect the  amount of  damage or  healing done.   For
+other spells,  such as  Knock-Knock or Direction, the power level
+of the spell will increase its effectiveness or duration.
+
+
+                        Spell Power Costs
+                                
+For each  spell your  character learns, he or she will be given a
+certain amount  of spell points.  These points, in turn, are used
+to cast  the spells.   When  your magic user casts a spell, he or
+she must have enough spell points available to fire it off.  As a
+spell increases  in power, it also increases in cost and requires
+more Oratory  to intone.   For  example, if a spell cost 5 points
+for power level 1, then it would cost 10 points for power level 2
+and so on.
+
+
+                        Affects & Effects
+                                
+Some spells  attack only  one monster or help only one character.
+Others can  encompass all  opponents or  affect the entire party.
+In the  list of  spells which  follows, the  affected  person  or
+group(s) are  listed.   Some monsters may not be affected or only
+partially affected  by a spell.  If it's an "all-or-nothing" type
+spell, there  may be  no effect  at all.   Lastly, just like your
+characters, some  creatures are  resistant to  certain  types  of
+spells.   For example, an Ice Giant probably wouldn't be affected
+by an Iceball spell (unless the laughing did him in).
+
+
+                        Summoning Spells
+                                
+Your lead  fighter has  two hit points left, your mage has fallen
+asleep, and  your priest is too insane to do much about it.  With
+the last  bit of  power he  can muster, your Psionic fires off an
+Illusion spell.   And  . .  . voila, a Greater Demon appears - at
+your service!   With  a flick  of his  giant,  fiery  hand,  your
+enemies are but a bad memory.
+
+For just such reasons, summoning spells are a favorite among Lost
+Guardia's magic  users.   These spells  allow  you  to  summon  a
+monster from  another plane  to fight  for your  party.  Once you
+have summoned  one group of monsters, however, you may not summon
+another group until the first group dies or the encounter ends.
+
+Summoned  monsters   can  be  extremely  useful  to  your  party.
+Sometimes an  attack originally  meant for  your characters  will
+strike the  summoned group of monsters . . . saving you the pain,
+rest and healing spells necessary to recover.
+
+
+                             Oratory
+                                
+One of  the most important skills of the spell caster, Oratory is
+the practice  of successfully  reciting a  spell while  under the
+duress of  combat.   A character  proficient in oratory should be
+able to  zip off  a deadly  spell while  simultaneously dodging a
+sword's blow.
+
+However, characters with poor oratory or bad luck may backfire or
+fumble a  spell.   When a  spell backfires,  it attacks the party
+instead of  the monsters!   So,  if you  cast a Magic Missile and
+fumble its  incantation .  . .  b o o m.  Your characters will be
+affected just as if the monsters had cast it on you.
+
+
+                         Casting A Spell
+                                
+There are  six steps  to casting  a spell.   As you complete each
+part, you  will see  the cursor  blinking at  you to indicate the
+next course of action.
+
+1. Select the "Spellbook" option   5.        Select Cast
+2. Choose a realm     6. Give the spell a target (a
+3. Select a spell        character, a monster, a
+4. Set the power level        group, an item,  etc.)
+
+Your spell  casters must  study to  learn more spells.  When your
+spell casters  gain a level, be sure to add skill points to their
+area of proficiency.  Some classes, such as the Samurai, are both
+warriors and  spell casters.   Be  careful not  to neglect  their
+fighting skills in lieu of spell power.
+
+Fire Spells
+
+
+Energy BlastCost: 2
+Caster: MAG
+Affects: 1 Creature
+A jolting  spark of electric energy doing 1-7 hit point of damage
+per power level.
+
+Blinding FlashCost: 2
+Caster: ALC
+Affects: 1 Creature plus power level
+A giant flash of light that may temporarily blind opponents.
+
+Psionic FireCost: 4
+Caster: PSI      
+Affects: 2 Creatures plus power level
+A fiery burst of mental power doing 1-8 points of fire damage per
+power level.
+
+Fireball  Cost: 6
+Caster: MAG
+Affects: 3 Creatures plus power level
+Blazing fireballs  that burn opponents and can do 2-10 hit points
+of fire damage per power level.
+
+Fire ShieldCost: 8
+Caster: MAG
+Affects: Party
+Creates a barrier impervious to fire that protects the party from
+fire-type spells.
+
+Dazzling Lights Cost: 6
+Caster: PSI         
+Affects: 1 Creature plus power level
+A spectacular display of various luminous effects causing victims
+to suffer one or more maladies.
+
+Fire Bomb Cost: 8
+Caster: ALC
+Affects: 4 Creatures plus power level
+An exploding,  incendiary spell  that does  3-9  points  of  fire
+damage per power level.
+
+Lightning Cost: 8
+Caster: PRI
+Affects: 3 Creatures plus power level
+A bolt  of electrical  energy hurled  at the opponents doing 1-10
+hit points of electrical damage per power level.
+
+Prismic MissileCost: 9
+Caster: MAG         
+Affects: 3 Creatures plus power level
+Also known  as Dancing  Lights  and  Rainbow  Rays,  the  various
+spectrums may affect creatures in many different ways.
+
+Firestorm Cost: 12
+Caster: MAG
+Affects: Cloud
+A sweeping cloud of fire that lasts for several rounds and burns
+all creatures within it.  Creatures affected, duration and damage
+done all depend on the spell's power level.
+
+Nuclear BlastCost: 16
+Caster: MAG
+Affects: All Creatures
+A miniature fusion bomb.  This spell burns all creatures and does
+5-25 hit points of fire damage per power level.
+
+Water Spells
+
+
+Chilling Touch   
+Cost: 2
+Caster: MAG
+Affects: 1 Creature
+A freezing blast of cold which does 1-6 hit points of cold damage
+per power level.
+
+Stamina
+Cost: 2
+Caster: PRI, ALC, PSI    
+Affects: 1 Character
+Replenishes some of the character's stamina keeping the character
+awake or  allowing him  or her  to go  without sleep for a longer
+period of  time.   Amount of  stamina replenished  depends on the
+power level of the spell.
+
+Terror
+Cost: 3
+Caster: MAG, PSI    
+Affects: 1 Group
+Evokes fear  and terror in creatures and may reduce their ability
+to fight or cause them to flee.
+
+Weaken
+Cost: 4
+Caster: MAG, PSI 
+Affects: 3 Creatures plus power level
+Physically drains the creatures making them vulnerable to attack,
+causing them  to fight  and  react  poorly,  and  lowering  their
+resistance to magic spells.
+
+Slow
+Cost 4
+Caster: PRI, PSI
+Affects: 3 Creatures plus power level
+Slows creatures down.  They can't move as fast to hit you and are
+easier to hit themselves.
+
+Haste
+Cost: 5
+Caster PRI, PSI
+Affects: Party
+Speeds up  characters' movements  by giving  them  extra  energy.
+Also helpful to counteract a Slow spell.
+
+Cure Paralysis   
+Cost: 6
+Caster: PRI, ALC, PSI
+Affects: 1 Character
+Attempts to  cure one character of paralysis.  Success depends on
+the extent  of paralysis  to the  character's system  versus  the
+power level of the spell.
+
+Ice Shield
+Cost: 8
+Caster: MAG              
+Affects: Party
+A barricade  which resists  the affects  of cold and protects the
+party from  cold and  cold-type spells.  Strength and duration of
+the Ice Shield depends on the power level of the spell.
+                                                                 
+Restfull
+Cost: 8
+Caster: PRI
+Affects: Party
+A gentle spell that restores a portion of stamina to every member
+of the party.  Stamina recouped is relative to the power level of
+the spell.
+
+Iceball          
+Cost: 8
+Caster: MAG
+Affects: 4 Creatures plus power level   
+A flurry of stinging ice balls which cause 3-12 hit points of ice
+damage per power level.
+                                                                 
+                                                                 
+                                                                 
+Water Spells
+
+
+Paralyze
+Cost: 5
+Caster: PRI, PSI
+Affects: 1 Creature           
+Attempts to  solidify all  water in a creature's body.   Duration
+and success  depends on  the power level of the spell relative to
+the power and amount of body water in the creature.
+
+Superman
+Cost: 7
+Caster: PRI
+Affects: 1 Character
+Empowers a  party member  with a  heroic boost of energy allowing
+him or her to fight with the power and finesse of a hero.
+
+Deepfreeze
+Cost: 6
+Caster: MAG
+Affects: 1 Creature           
+Attempts to  freeze a  creature's bodily  fluids solid doing 3-30
+hit points of severe ice damage per power level.
+
+Draining Cloud   
+Cost: 8
+Caster: ALC
+Affects: Cloud
+Surrounds creatures  in a  mystical cloud  that attempts to drain
+their  lifeforce  every  round  they  remain  inside  the  cloud.
+Duration and power of the cloud are relative to the spell's power
+level.
+
+Cure Disease
+Cost: 12
+Caster: PRI, ALC
+Affects: 1 Character
+Attempts to  cure someone  of disease  and its  effects.  Success
+depends on  the strength  of the disease relative to the  spell's
+strength.
+
+
+
+Air Spells
+
+
+Poison           
+Cost: 2
+Caster: ALC
+Affects: 1 Creature
+Turns the  air poisonous  around the creature, and causes 1-5 hit
+points damage  per power  level plus  poisoning.  Strength of the
+poison is relative to the power level of the spell.
+
+Missile Shield
+Cost: 5
+Caster: MAG      
+Affects: Party
+Hardens the  air around  the party forming a shield that protects
+characters from missiles, arrows, hurled weapons, etc.
+
+Shrill Sound
+Cost: 4
+Caster: MAG, PSI
+Affects: 1 Group
+Whips the air creating a high frequency pressure wave that blasts
+the creatures with 1-5  damage per power level.
+
+Stink Bomb       
+Cost: 8
+Caster: MAG, ALC
+Affects: 3 Creatures
+An odorous  cloud of stinking fumes that can cause 1-6 hit points
+damage per power level and may make them nauseated.
+
+Air Pocket       
+Cost: 8
+Caster: MAG, ALC
+Affects: Party
+Protects the  party from  air spells  such as stinking clouds and
+suffocation by  creating a  pocket of fresh air around the party.
+Strength and  duration of  the pocket  are relative  to the power
+level of the spell.
+
+Silence
+Cost: 4
+Caster: PRI, PSI    
+Affects: 3 Creatures plus power level
+Causes air  around creatures  to stop  transmitting  sound,  thus
+preventing them  from casting  spells.    Strength  and  duration
+relative to the power level of the spell.
+
+Poison Gas       
+Cost: 7
+Caster: ALC              
+Affects: Cloud
+Poisonous cloud  that lasts  several  rounds  and  surrounds  the
+creatures in  the gas.   Creatures  inside the  cloud suffer from
+poisoning and  damage.   The  creatures  affected,  duration  and
+damage done all depend on the power level of the spell.
+
+Cure Poison      
+Cost: 8
+Caster: PRI, ALC    
+Affects: 1 Character
+Attempts to  cure one character of poisoning.  Success depends on
+the strength of the poison relative to the strength of the spell.
+
+Whirlwind        
+Cost: 8
+Caster: PRI
+Affects: 3 Creatures plus power level
+A swirling  tornado whipping  around the  creatures and  blasting
+them with 1-7 hit points damage per power level.
+
+Purify Air
+Cost: 10
+Caster: PRI, ALC
+Affects: Party
+Tries to  clear the  air of  any dangerous clouds like Poison Gas
+and Firestorm.  Success depends on the amount and strength of the
+clouds relative to the spell's strength.
+
+Deadly Poison
+Cost: 8
+Caster: ALC
+Affects: 1 Creature                                              
+May kill  a creature  outright or  does extremely heavy poisoning
+plus 3-15 damage points per power level.
+
+Levitate         
+Cost: 12
+Caster: MAG
+Affects: Party
+Creates a  3-inch cushion  of air  underneath  party  helping  to
+prevent or reduce damage in case they fall. Duration of the spell
+is relative to the power level of the spell.
+
+Toxic Vapors
+Cost: 8
+Caster: ALC
+Affects: Cloud
+A giant,  stinking cloud  of vapors  that surrounds the creatures
+and causes 2-6 hit points damage per power level of the spell.
+
+Noxious Fumes   
+Cost 10
+Caster: MAG, ALC
+Affects: 3 Creatures plus power level   
+Horrid smelling  torrents that  blast the  creatures'  noses  and
+cause 1-6 hit points damage per power level plus nausea.
+
+Asphyxiation
+Cost: 12
+Caster: MAG, ALC
+Affects: All Groups                                              
+Swallows air around creatures leaving none to breathe.  Chance of
+creatures' death  depends on  their ability  and need to breathe,
+strength and  susceptibility relative  to  the  strength  of  the
+spell.
+
+Deadly Air       
+Cost: 16
+Caster: ALC
+Affects: All Creatures
+Makes air  surrounding the  creatures entirely  unbreathable  and
+causes 4-16 hit points damage per power level.
+
+Death Cloud      
+Cost: 20
+Caster: ALC
+Affects: Cloud
+Black vapors that engulf a group of creatures and attempt to kill
+them outright.   Every round creatures remain in the cloud, there
+is a chance they will die.
+
+
+
+Earth Spells
+
+
+
+Acid Splash
+Cost: 2
+Caster: ALC
+Affects: 1 Creature
+A rushing  wave of  bubbling acid  that causes  1-7 hit points of
+damage per power level.
+
+Itching Skin
+Cost: 2
+Caster: ALC
+Affects: 2 Creatures plus power level
+A sprinkle of powder that causes the creatures' skin to itch.  It
+also irritates  the creatures and lessens their ability to attack
+and defend.
+
+Armor Shield
+Cost: 2
+Caster: MAG         
+Affects: 1 Person
+Creates a  magical shield in front of the person, lowering his or
+her armor class by one point per power level.
+
+Direction
+Cost: 2
+Caster: MAG
+Affects: Party
+A magical  compass that  shows the  direction the party is facing
+(N, S,  E or  W).   The duration  of the spell is relative to the
+power level.
+
+Knock-Knock      
+Cost: 6
+Caster: MAG, PSI
+Affects: Locked Doors and Treasure Chests
+Magically alters the lock on a door (jammed or not) or a chest in
+an attempt  to unlock  it.   When used  on a  chest, there  is  a
+percent chance that it may set the trap off.
+
+Blades           
+Cost: 6
+Caster: PRI, PSI    
+Affects: 3 Creatures plus power level
+Hurls slicing  razor blades  through the air doing 2-8 hit points
+damage per power level without providing a nice, clean shave.
+
+Armorplate       
+Cost: 6
+Caster: PRI
+Affects: Party
+Creates a  magic armor  plating around the party, protecting them
+and lowering  their armor  class. Duration and strength depend on
+power level.
+
+Web
+Cost: 7
+Caster: MAG, PRI 
+Affects: 1 Creature
+Attempts to capture 1 creature in a sticky web slowing or halting
+its movements or attacks.  Success depends on the strength of the
+creature relative to the power level of the spell.
+
+Whipping Rocks
+Cost: 7
+Caster: MAG, ALC
+Affects:  1 Group
+A vortex  of rocks  sailing toward a group of creatures doing 1-6
+damage per power level.
+
+Acid Bomb        
+Cost: 8
+Caster: ALC
+Affects: Cloud
+A giant  acid cloud  that surrounds  creatures  and  causes  acid
+damage.   The creatures  affected, duration  and damage  done all
+depend on the power level of the spell.
+
+Armormelt
+Cost: 8
+Caster: MAG, PSI
+Affects:  1 Group
+Softens the  armor of creatures thus raising their armor class in
+proportion to  the power  level of the spell making it easier for
+your weapons to penetrate their armor.
+
+Crush            
+Cost: 9
+Caster: MAG, ALC
+Affects: 1 Creature
+Creates a  gigantic stone that attempts to crush a creature doing
+up to 200 points of damage! Ouch!
+
+Create Life
+Cost: 10
+Caster: ALC
+Affects: Party
+Summons a  group of  organic creatures  to come and fight for the
+party.  The power and number of creatures summoned is relative to
+the power level of the spell.
+
+Cure Stone       
+Cost: 18
+Caster: PRI, ALC 
+Affects: 1 Character
+Attempts to  restore a stoned character to normal flesh and bone.
+Success depends  on the  strength of  the stone  relative to  the
+power level of the spell.
+
+
+
+Mental Spells
+
+
+Mental Attack    
+Cost: 3
+Caster: PSI
+Affects: 1 Creature
+An invading pressure of thought swirling the creature's brain and
+causing 1-7  hit points  of mental  damage per  power  level  and
+potential insanity.
+
+Sleep
+Cost: 3
+Caster: MAG, ALC, PSI
+Affects: 3 Creatures plus power level
+Causes creatures  to fall asleep and prevents them from attacking
+the party  members or  defending themselves from attack.  Success
+and duration  depends of  the power  of the creatures relative to
+the power level of the spell.
+
+Bless
+Cost: 4
+Caster: PRI, PSI
+Affects: Party
+Magically lowers  the party's  armor  class  and  enhances  their
+chances to  hit a  creature relative  to the  power level  of the
+spell.
+
+Charm
+Cost: 5
+Caster: PRI, ALC, PSI
+Affects: 1 Creature or NPC
+Attempts to  charm a  creature to  prevent it  from attacking the
+party.   Any creature  charmed will  also be easier to hit.  When
+cast in non-combat situations, the spell attempts to charm an NPC
+so that  it will  regard the  party in  a friendly  or  at  least
+neutral manner for the duration of the encounter.  The higher the
+power level, the better the charm.
+
+Cure Lesser Cnd.
+Cost: 4
+Caster: PRI, ALC, PSI         
+Affects: 1 Character
+Attempts to  cure a  character of  one of  the lesser conditions:
+afraid, blindness, nausea and minor irritations.  Success depends
+on the  strength of  the malady  relative to  the strength of the
+spell.
+
+Divine Trap      
+Cost: 4
+Caster: PRI, PSI    
+Affects: Treasure Chest
+Permits the  inspector of  a  treasure  chest  to  determine  the
+elements of the trap with great reliability by making the devices
+attached more  readily apparent.   The  trap must,  of course, be
+inspected after  Divine Trap  is cast for the spell to be useful.
+Success of  the spell  depends on the power and complexity of the
+trap relative to the spell's power.
+
+Detect Secret
+Cost: 5
+Caster: MAG, PSI
+Affects: Caster
+Opens the caster's mind to anything that may be strange or out of
+place and  allows him  or her  to detect  its presence within the
+party's immediate  area.  The Detect Secret eye will "blink" when
+the caster  detects something.  Duration and success of the spell
+are relative to the spell's power level.
+
+Identify
+Cost: 8
+Caster: PRI, PSI
+Affects: 1 Creature or Item
+Attempts to  reveal the  true name  of a  creature  or  an  item.
+Success depends  on the power of the creature or the cloak of the
+item relative to the power level of the spell.
+
+Confusion        
+Cost: 6
+Caster: ALC, PSI
+Affects: 1 Group
+A blast of mental energy that attempts to scramble the creatures'
+thinking causing  them to  run away,  attack themselves, cower in
+fear, whip up a batch of fondue or otherwise act crazy.
+
+Watchbells       
+Cost: 5
+Caster: MAG, PSI
+Affects: Party
+A psychic  bell cast in an attempt to wake other party members if
+they are  asleep  or  unconscious  when  attacked  by  creatures.
+Success depends  on the  length of  time the party has slept, how
+tired the party members are and how solidly they sleep.
+
+Hold Monsters    
+Cost: 6
+Caster: PRI, PSI
+Affects: 3 Creatures plus power level   Attempts to confuse the
+creatures into believing they are paralyzed.  Success depends on
+the power of the creature relative to the power level of the
+spell.
+
+Mindread         
+Cost: 8
+Caster: PSI
+Affects: Caster
+Attempts to  discern what's on an NPC's mind.  Success depends on
+the intelligence of the NPC relative to the spell's power level.
+
+Sane Mind
+Cost: 10
+Caster: PRI, PSI
+Affects: 1 Character
+Attempts to  restore sanity  to an  insane  character.    Success
+depends on how nuts the character is versus the spell's strength.
+
+Psionic Blast
+Cost: 8
+Caster: PSI
+Affects: 3 Creatures plus power level
+An extreme  and powerful jolt of mental energy that scrambles the
+creatures brains  and causes  1-7 hit points of mental damage per
+power level and may cause insanity.
+
+Illusion
+Cost: 10
+Caster: PSI
+Affects: Party
+Attempts to  conjure an  illusion of  a being so real that it can
+attack creatures and can be attacked back!  The creatures' amount
+and powers depend on the spell's power level.
+
+Wizard's Eye
+Cost: 10
+Caster: MAG, PSI 
+Affects: Caster
+Allows the  caster to  see the  surrounding area from an overhead
+view.   The size and detail of the area seen depends on the power
+level of the spell.
+
+Spooks           
+Cost: 7
+Caster: MAG, PSI    
+Affects: All Creatures
+Conjures an illusion that is so terrifying it may scare creatures
+away, causing  them to  cower in fear or otherwise reducing their
+capacity to fight well.
+
+Death            
+Cost: 10
+Caster: PRI, PSI    
+Affects: 1 Creature
+Attempts to  kill a  creature outright.   Success  depends on the
+creature's power relative to the spell's power.
+
+Locate Object
+Cost: 8
+Caster: PRI, PSI    
+Affects: Caster
+Allows the  caster to magically determine the location of certain
+buried or  hidden items,  Success depends  on the item's location
+relative to  the caster, how well the item in question is hidden,
+and the spell's power level.
+
+Mind Flay        
+Cost: 18
+Caster: PSI
+Affects: All Creatures
+A concentrated tide of mental energy that conjures every fear and
+devastates the creatures doing 4-16 points damage per power level
+plus potential insanity.
+
+Find Person      
+Cost: 16
+Caster: PRI, PSI    
+Affects: Caster
+Tries to  locate someone  you're looking  for, and may reveal all
+parties within  a certain  range.  Success depends on the spell's
+power level versus to the location and stealth of the one sought.
+
+
+
+Divine Spells
+
+
+Heal Wounds
+Cost: 4
+Caster: PRI, ALC, PSI
+Affects: 1 Character
+Heals 1-8  hit points  per power  level.  It will not cure lesser
+conditions, such as blindness, or resurrect dead characters.
+
+Make Wounds      
+Cost: 3
+Caster: PRI
+Affects: 1 Creature
+Invokes divine  powers to  cause bodily harm and inflicts 1-8 hit
+points of damage per power level.
+
+Magic Missile    
+Cost: 4
+Caster: MAG      
+Affects: 1 Creature plus power level
+Small, but  powerful, missiles  of magical  energy hurled  at  an
+opponent doing 1-7 hit points of magic damage per power level.
+
+Dispell Undead
+Cost: 7
+Caster: PRI
+Affects: 1 Creature plus power level
+Attempts to dispell an animated and undead creature.  The success
+depends on  the creature's  power relative  to the  spell's power
+level.
+
+Enchanted Blade
+Cost: 4
+Caster: PRI
+Affects:    Party
+Magically enhances  members' weapons and increases the likelihood
+of a  successful hit on a creature.  It also increases the chance
+a hit  will penetrate  the creature's  armor.   The duration  and
+power are relative to the spell's power level.
+                                                                 
+Blink
+Cost: 7
+Caster: MAG, PSI
+Affects:   Caster
+Allows the  caster to  disappear for  a brief time during combat,
+blinking out  and in  sometime during each round.  He or she will
+always reappear  to execute  normal combat options.  The duration
+of the effect is relative to the spell's power level.
+
+Magic Screen
+Cost: 8
+Caster: MAG
+Affects: Party
+Creates a magical barrier that attempts to protect the party from
+all spells cast at them.  The strength of the barrier is relative
+to the  power of  the creatures'  spells and  the  level  of  the
+screen.
+
+Conjuration      
+Cost: 10
+Caster: MAG, PRI
+Affects: Party
+Summons creatures  from the  ethereal planes  to  fight  for  the
+party.  The power and number of creatures summoned is relative to
+the power level of the spell.
+
+Anti-Magic       
+Cost: 7
+Caster: MAG              
+Affects: 1 Group
+Forms a magical barrier around the creatures that may cause their
+spells to  fizzle out  or backfire.   The  barrier's strength  is
+relative to  the power  level of  the spells  cast and  the power
+level of the Anti-Magic screen.
+
+Remove Curse
+Cost: 4
+Caster: PRI
+Affects: 1 Person
+Attempts to  lift any  magically cursed  and stuck  items from  a
+character.  Success depends on the strength of the curse relative
+to the strength of the spell.
+
+Healfull         
+Cost: 12
+Caster: PRI      
+Affects: Party
+A super-charged healing spell that attempts to restore hit points
+and health to all members of the party.  The amount of hit points
+restored is relative to the spell's power level.
+
+Lifesteal
+Cost: 12
+Caster: PRI, PSI    
+Affects: 1 Creature and Caster
+Removes virtually  all lifeforce  from a creature and attempts to
+channel some of it back into the caster to heal him or her.  Does
+4-16 points  magic damage per power level multiplied by the power
+level of the spell.
+
+Astral Gate      
+Cost: 8
+Caster: MAG, PRI 
+Affects: 1 Creature per power level
+Attempts  to  banish  a  demon-type  creature  from  this  world.
+Success depends  on the  power of  the creature  relative to  the
+power of the spell.
+
+Zap Undead       
+Cost: 15
+Caster: MAG         
+Affects: 1 Creature
+A tirade  of magical  power that tries to destroy one creature of
+the undead variety with up to 1000 points of damage.
+
+Recharge
+Cost: 15
+Caster: MAG, PRI 
+Affects: Item    
+Attempts to  restore a  magically enchanted  item's charges.  The
+item must  be in  the castor's possession, and must have at least
+one charge  left to  duplicate.  There is a chance the item could
+be destroyed.   Success depends on the item's complexity relative
+to the spell's power level.
+
+Word of Death
+Cost: 18
+Caster: PRI
+Affects: All Creatures
+A divine word cast so powerfully it smashes the creatures with 4-
+16 points of magical damage per power level.
+
+Resurrection     
+Cost: 20
+Caster: MAG, PRI, PSI
+Affects: 1 Character                                             
+Tries to  revive a  dead  character.    Success  depends  on  the
+character's lifeforce relative to the spell's power level.
+
+Death Wish
+Cost: 20
+Caster: PRI
+Affects: All Creatures
+Attempts to  kill all  creatures outright  through sheer  magical
+force.  Success depends on the power of the creatures relative to
+the power level of the spell.
+
+--------------------------------------------------------
+
+RACES
+
+Human
+Resistances:  Although a Human has no natural resistances, it has
+no particular shortcomings either.
+STR 9, INT 8, PIE 8, VIT 9, DEX 9, SPD 8, PER 8
+Humans are the race to which all others in Wizardry are compared.
+Perfectly balanced in its statistics, having no particular
+strengths and no decided weaknesses, the human serves as a stable
+and dependable creature regardless of the profession a Human
+character eventually enters.
+
+Elf
+Resistances:  Elves, because of their high intelligence, have a
+nautral resistance to hypnosis and sleep spells.
+STR 7, INT 10, PIE 10, VIT 7, DEX 9, SPD 9, PER 8
+Elves are smallish creatures, with pointed ears and a broad
+smile.  They exce;l at intellectual pursuits, loving not only
+what they learn bu the study that comes with it as well.  Armed
+with these smarts, Elves make excellent magic users.  Elves are
+also nimble creatures, moving their small bodies with an above-
+average ease and speed.
+
+Dwarf
+Resistances:  The Dwarves' robust body provides poison
+resistance, while its heredity provides for magic spell
+protection.
+STR 11, INT 6, PIE 10, VIT 12, DEX 7, SPD 7, PER 7
+Coming from a long line of forest and cave dwelling folk, Dwarfs
+also have a taste for any adventure.  They are small beings, but
+display a remarkable amount of strength.  Their hearty stance and
+high vitality make them a natural for combat-related professions.
+Also pious creatures, Dwarfs make great priests.
+
+Gnomes
+Resistances: Because of their high piety and ancestry, Gnomes
+possess a resistance to magic spells.
+STR 10, INT 7, PIE 13, VIT 10, DEX 8, SPD 6, PER 6
+In the underground caves of Wizardry, one might just find whole
+groups of Gnomes in their natural habitat.  Typically keeping to
+themselves, Gnomes are sturdy, strong and agile creatures; their
+small stance can easily fool opponents in comabt.  Gnomes are
+also extremely pious individuals whose zest for learning is
+virtually unequalled by any other race.
+
+Hobbit
+Resistances:  The Hobbit has resistance to Magic realm spells.
+STR 8, INT 7, PIE 6, VIT 9, DEX 10, SPD 7, PER 13
+A sleek and tiny race, the Hobbit is a dexterous and busy type
+able to maneuver its body (and especially its fingers) into and
+out of the tightest situations.  The Hobbit is also well known as
+a charming conversationalist for its amazing friendliness and
+hospitality.  Hobbits with lesser inclinations frequently use
+their silver-tongues and quick fingers to help themselves to
+goods and information.
+
+Faerie
+Resistances:  The Faerie's long kinship with nature provides
+resistance to magic spells
+STR 5, INT 11, PIE 6, VIT 6, DEX 10, SPD 14, PER 12
+The tiniest and most agile race in all of Wizardry, Faeries are
+delicate and beautiful beings.  Their small size and lightning
+speed give them a naturally low armor class.  The Faerie is also
+one of the smartest and friendliest creatures in Wizardry.
+Although not much of a fighter, the Faerie can make an excellent
+magic user or thief.
+
+
+Lizardman
+Resistances:  A lack of intelligence provides ressistance to
+mental spell, while its skin resists acid.
+STR 12, INT 5, PIE 5, VIT 14, DEX 8, SPD 10, PER 3
+The Lizardman is a serpentine-type creature whose origins are
+somewhat uncertain.  ALthough it is human-like in its ability to
+talk and walk upright, the Lizardman is not intelligent or
+personable (actually, others tend to avoid him).  Its strengths
+lie in its natural ability to fight . . . and win.  Stong, fast
+and hearty, with a mid that thinks, "kill, kill, kill," the
+Lizardman can be the perfect combatant.
+
+Dracon
+Resistances:  Their dragon ancestry gives Dracons resistance to
+acid and mental spells.
+STR 10, INT 7, PIE 6, VIT 12, DEX 10, SPD 8, PER 6
+A mixture of blood between the human and the dragon created this
+wondrous race with incredibly unique abilities.  While remaining
+private, the Dracon occasionally ventures out and will accompany
+another group for reasons of its own.  It is strong, deterous,
+and hearty, and can make a great Ranger, Thief or Fighter.  The
+Dracon also has a limited ability to breathe acid upon its
+opponents!
+
+Rawulf
+Resistances:  The Rawulf's thick hair provides grea cold
+protection.
+STR 8, INT 6, PIE 12, VIT 10, DEX 8, SPD 8, PER 10
+Rawulf's are devoted and hearty creatures.  Descending from a
+race of intelligent, bipedal canines, they share their ancestors'
+caring personality and thick coat as well as an indication of
+their speed, strength and dexterity.  The Rawulf's desire to
+learn coupled with high piety also help it to become and
+excellent Priest.
+
+Felpurr
+Resistances:  Quick reflexes help it to dodge missiles and
+spells.
+STR 7, INT 10, PIE 7, VIT 7, DEX 10, SPD 12, PER 10
+Like their distant relative, the cat, Felpurrs are fast, smart
+and personable.  They walk on their hind feet, and are beautiful
+creatures with a full mane of hair covering their bodies.
+Felpurrs are also intelligent and dexterous.  Throughout their
+evolution, they have relied on their sleek body styling and speed
+more than actual physical strength, and have the ability to move
+their bodies with a grace unknown to virtually and other race.
+
+Mook
+Resistances:  The Mook's magical nature gives it resistance to
+magical spells.  Its fur provides resistance to cold.
+STR 10, INT 10, PIE 6, VIT 10, DEX 7, SPD 7, PER 9
+Very magical in nature, the Mook's exact origins are entirely
+unknown.  Those skilled in the Wizardry's mythology have gone so
+far as to speculate the Mook may even be of alien origin!  Mooks
+are extremely intelligent and strong creatures, and have a
+personality sure to charm the likes of most they encounter.
+
+Appendices
+
+
+
+Appendix B:  Character Professions
+
+
+A total  of fourteen traditional fields of study are available to
+your character,  and each  of  these  professions  follows.    By
+meeting the  minimum qualifications  of a  profession, characters
+can begin to train in the profession's skills, magic and conduct.
+Along with  a description  of the  profession, you  will see  its
+spellbooks, primary skills and basic equipment.
+
+-    Spellbooks:   If the  profession has  the ability  to  learn
+magic, the spellbook will be listed here.  Further information on
+magic and  the spellbook  itself is in the Magical spells section
+of this manual.
+
+-    Primary Skills:  Fresh out of training, your characters have
+become  somewhat   proficient  in   certain  aspects   of   their
+profession.  The primary skills reflect this training.
+
+-    Basic Equipment:   It would be pretty unkind, not to mention
+rude, to  send your  characters into  the  world  naked,  without
+weapons or  shoes on their feet.  Listed here is your character's
+basic, beginning inventory.
+
+
+Fighter
+Spellbooks:  None
+Primary Skills:  None
+Basic Equipment:   Long  Sword,  Leather  Cuirass,  fur  Legging,
+Sandals, Buckler Shield.
+
+STR 12
+
+The general  warrior  class  is  one  of  the  most  time-honored
+professions in  fantasy role-playing.   Fighters  generally  have
+high hit points, and relish their role as shock-troops.  They may
+specialize in  a wide  array of  weaponry skills,  and often  use
+these talents  to dispose  of monsters  who stand  in the  way of
+adventure.   Fighters mainly  concentrate on these combat skills,
+honing them  to a  deadly point.   Fighters  can wear  almost all
+armor and use most weapons.
+
+
+Mage
+Spellbooks:  Mage
+Primary Skills:  Thaumaturgy
+Basic Equipment:   Staff,  Robes (U), Robes (L), Sandals, 1 Magic
+Missile Scroll.
+
+INT 12
+
+The creators  of the  powerful Mage spells continue, to this day,
+to devote  a life's  work to  their study.  Because they practice
+only the  Mage spells  and seek  no other  interests, Mages learn
+them quicker  than any  other profession  in Wizardry.  They have
+poor hit  points and  are very  limited in  the armor and weapons
+they can  use.   However, their  powerful spellcasting makes them
+ideal for any party.
+
+
+Priest
+Spellbooks:  Priest
+Primary Skills:  Theology
+Basic Equipment:   Quarterstaff, Robes (U), Robes (L), Sandals, 3
+Lt. Heal potions.
+
+PIE 12, PER 8
+
+Long known  for their  healing powers,  Priests are useful to any
+party hoping  to live  for more  than  a  day  in  Lost  Guardia.
+Dedicated individuals, Priests give all of their attention to the
+study of  divine Priest  spells.   Their devotion  allows them to
+learn Priest  spells quicker  than any other profession.  Priests
+are also skilled diplomats, able to negotiate with NPCs.  Priests
+have fairly  high hit  points,  must  use  specially  consecrated
+weapons, and can wear light armor.
+
+
+Thief
+Spellbooks:  None
+Primary Skills:  Skulduggery
+Basic Equipment:   Cutlass,  Cloth Shirt, Cloth Pants, Buskins, 6
+Bite Daggers.
+
+DEX 12, SPD 8
+
+For those  who just  couldn't resist  a good temptation, thieving
+might just  be the  perfect career.   Thieves  are very  good  as
+circumventing the  noxious treasure  chest traps  which often lie
+between aparty  and their  hard-earned loot.   They also have the
+skill to  pick locked  doors, and delight in the opportunities to
+pickpocket.   Thieves can  hide in  combat, and  if  successfully
+hidden, they can launch a surprise attack... doing double damage.
+
+
+Ranger
+Spellbooks:  Alchemist
+Primary Skills:  Scout, bow
+Basic Equipment:   Short  Bow, 100  Willow Arrows, Suede Doublet,
+Suede Pants, Buskins.
+
+STR 10, INT 8, PIE 8, Vit 11, DEX 10, SPD 8, PER 8
+
+The nature-lover  of Wizardry,  the Ranger  enjoys a  talent  for
+scouting out  such things  as secret  passages, trick  walls  and
+other traps  of this  nature.  Much like Robin Hood, a classic of
+this profession,  Rangers are excellent archers and have a deadly
+accurate aim.   They  receive a  bonus when  using all projectile
+weapons including  a chance  to score a critical hit.  Around the
+third  level   of  experience,  Rangers  slowly  begin  to  learn
+Alchemists' spells.   They  also have fairly high hit points, and
+can hide during combat.
+
+
+
+Alchemists
+Spellbooks:  Alchemist
+Primary Skills:  Archemy
+Basic Equipment:   Staff, Robes (U), Robes (L), Sandals, 1 Cherry
+Bomb potion.
+
+INT 13, DEX 13
+
+The weavers of magical spells, Alchemists aspire to bend the laws
+of  the   universe.     Although  they  are  spellcasters,  their
+traditions show  them to  be  the  mixers  of  potions,  and  the
+diviners of  spells.   Using their  high intelligence, Alchemists
+concentrate their  studies fully  to this  art allowing  them  to
+learn its  spells faster  than any  other profession in Wizardry.
+Additionally, due  to the  nature of  their spells,  they need no
+oratory and cannot be silenced.
+
+
+
+Bard
+Spellbooks:  Mage
+Primary Skills:  Music
+Basic Equipment:   Sling,  Bullet Stone  (25), Cloth Shirt, Cloth
+Pants, Poets's Lute.
+
+INT 10, DEX 12, SPD 8, PER 12
+
+The silver-tongued adventurer, the Bard enjoys a talent for song,
+entertainment and  conversation.    Additionally,  their  musical
+talents allow  them to  play the  different enchanted instruments
+found within  Wizardry, casting  a spell  with each.   Bards also
+begin to  study powerful  Mage spells  around the  third level of
+experience.   Bards have  been known  to pick  a pocket or two as
+well, and  learnin the  ways of the thief, allowing them to  pick
+locks, disarm traps and hide during combat.
+
+
+
+Psionic
+Spellbooks:  Psionic
+Primary Skills:  Theosophy
+Basic Equipment:   Dagger,  Robes (U), Robes (L), Sandals, Shadow
+Cloak
+
+STR 10, INT 14, VIT 14, PER 10
+
+Concentrating on  the wonders of the mind, the Psionic is a magic
+user who  has  developed  mental  powers  to  a  level  no  other
+profession can hope to possess.  Their spells have the ability to
+alter the  mind, read  it and  mess with it in general.  They are
+both clairvoyants and divinators, who focus all their energies on
+their mental  and magical  abilities.    Through  this  devotion,
+Psionics  learn   the  mental   spells  faster   than  any  other
+profession.
+
+
+
+Valkyrie
+Spellbooks:  Priest
+Primary Skills:  Pole & Staff
+Basic Equipment:   Spear,  Fur Halter,  Chamois  Skirt,  Sandals,
+Leather Helm
+
+STR 10, PIE 11, VIT 11, DEX 10, SPD 11, PER 8
+
+A profession  open only  to female  characters, the Valkyrie is a
+fiest-rate lance  warrior.   Her knowledge of weapons is vast and
+precise; her  spirit for combat is great.  She is strong, and has
+the ability  to swing her sword with a speed and accuracy admired
+by all.   Around  the third  level of ability, the pious Valkyrie
+begins the  study of  Priest spells,  although she  doesn't learn
+them as quickly as the Priest.
+
+
+
+Bishop
+Spellbooks:  Priest, Mage
+Primary Skills:  Theology, Thaumaturgy
+Basic Equipment:   Quarterstaff,  Robes (U),  Robes (L), Sandals,
+Mitre
+
+INT 15, PIE 15, PER 8
+
+Extremely intelligent  and pious  individuals, Bishops  devote  a
+major portion  of their time to the ancient studies.  Pooling the
+knowledge of  the  Mage  and  Priest,  Bishops  are  well-studied
+characters who  learn the  spells  of  both  their  counterparts.
+However, because  of the  time required to study both spellbooks,
+Bishops learn  spells  more  slowly  than  the  Mage  or  Priest.
+Bishops, because  of their  great  wisdom,  are  skilled  in  the
+political art of diplomacy.
+
+
+
+Lord
+Spellbooks:  Priest
+Primary Skills:  Diplomacy
+Basic  Equipment:     Broadsword,  Quilt  Tunic,  Quilt  Legging,
+Buskins, Steel Helm
+
+STR 12, INT 9, PIE 12, VIT 12, DEX 9, SPD 9, PER 14
+
+Both an  excellent fighter, diplomat and pious spellcaster, Lords
+are the  true crusader  knights in  Wizardry.  While their combat
+skills are  their primary  concern, the  Lord's interest  in  the
+divine  Priest   spells  develops   around  the  third  level  of
+experience, and  helps to  provide the  party with the additional
+healing power it may need.  Whether it be inflicing the damage or
+healing it  or negotiating  it, Lords are a great addition to any
+party.
+
+
+
+Samurai
+Spellbooks:  Mage
+Primary Skills:  Sword
+Basic Equipment:    Katana,  Wakazashi,  Robes  (U),  Robes  (L),
+Sandals
+
+STR 12, INT 11, VIt 9, DEX 12, SPD 14, PER 8
+
+The true  swordsman of Wizardry, the Samurai has dedicated his or
+her life  to the  study of  the sword.   Their  lightening  speed
+combined with their sword's accuracy help them to fight their way
+through most  any situation.   Samuari can learn the deadly skill
+of the  critical kill,  unleashing it upon their opponents in the
+heat of  battle.  Their mystical side allows them to develop mage
+spells around the third level of experience.
+
+
+
+Monk
+Spellbooks:  Psionic
+Primary Skills:  Hand & Feet, Theosophy
+Basic Equipment:  Bo, 15 Shurikens, Robes (U), Robes (L), Sandals
+
+STR 13, INT 8, PIE 13, DEX 10, SPD 13, PER 8
+
+A wandering  person in search of inner and outer development, the
+Monk is  a talented  warrior, fighting  most with  the hands  and
+feet, who  tops this  ability with  a knowledge  of self defense.
+The Monk  also possesses  keen insight into the ways of the mind,
+and begins  to learn  the Psionic  spells at  the third  level of
+experience.   The Monk  is also  studied in  the  body,  and  may
+critically hit an opponent.  He or she may also hide in combat.
+
+
+
+Ninja
+Spellbooks:  Alchemist
+Primary Skills:  Hand & Feet, Ninjutsu
+Basic Equipment:  15 Shurikens, Ninja Cowl, Ninja Garb (U), Ninja
+Garb (L), Tabi Boots
+
+STR 12, INT 10, PIE 10, VIT 12, DEX 12, SPD 12
+
+The ultimate  assassin, the  Ninja is  a silent and devout killer
+with skills  and talents  admired, but know little about, by all.
+They commonly  fight with  their hands  and feet,  wreaking havoc
+upon their  unlucky opponents.  Ninja may also deliver a critical
+blow ot  whatever stands  in their  way.   Sharing  some  of  the
+Thief's skills,  the Ninja is able to hide in combat, in hopes of
+launching a deadly surprise attack.  Much later in their careers,
+Ninja begin to learn Alchemist spells.
+
+Appendix C:  Character Skills
+
+
+As your  characters travel through forests and encounter NPCs and
+monsters, they  will develop,  learn and hone the skills that are
+necessary for  survival and  success in Wizardry.  There are four
+categories of skills:  Weaponry, Physical, Academia and Personal.
+Within each  of  these  categories,  there  are  many  individual
+skills, all  of which  are listed  in this section.  Depending on
+your character's profession, you may not see every possible skill
+while reviewing your character
+
+
+                         Weaponry Skills
+                                
+In general,  Weaponry skills  affect  a  character's  ability  to
+handle his  or her  weapon.   As your  character practices  these
+skills (equipping  and using a weapon in combat, blocking a blow,
+etc.), points  will  be  added  to  the  skill  to  reflect  your
+training.   At their  best, all  skills reach  a maximum  of  100
+points.
+
+WAND &  DAGGER:   The talent of wielding daggers, wands and other
+small items used as weapons in combat.
+SWORD:   Any sword,  including the  katana, used  as a  weapon in
+combat is covered under this skill.
+AXE:   This ability  covers any  axe, such  as the battle or hand
+axe, used as a weapon in combat.
+MACE &  FLAIL:   The talent  needed to  use any  mace-like  item,
+including the flail or hammer, as a weapon in combat.
+POLE &  STAFF:   The mastery  of any  pole &  staff, such  as the
+halberd, bo or staff, used as a weapon in combat.
+THROW:   The demonstrated ability to be on target when any weapon
+is thrown.   This  includes  such  things  as  shurikens,  darts,
+potions and weapons that are thrown accidently.
+SLING:  The ability to use any weapon which consists of a leather
+strap and  two cords  which, when  whirled  and  released,  hurls
+stones and other like objects at an opponent.
+BOW:   The flair  of handling  any bow  which fires arrows and is
+used as a weapon in combat.
+SHIELD:   The art  of using  a shield  effectively  to  block  an
+opponents blow while fighting or parrying.
+HANDS & FEET:  The talent of using one's hands and feet as lethal
+weapons to strike and hopefully kill and opponent.
+
+
+                         Physical Skills
+                                
+Physical skills  generally affect  a character's  ability  to  do
+things which require talents of the body or voice.  For instance,
+a character  skilled in  Scout will  keenly perceive  a piece  of
+straw that looks out of place in a giant hay pile.  The unskilled
+scouting character, on the other hand, will blindly walk down the
+hall, oblivious  to the  giant red  sign that  says, "Secret Door
+Here!"   As with  most skills,  Physical skills  grow stronger as
+your characters  practice them.   Physical skills reach a maximum
+of 100 points
+
+SCOUT:   The knack  of seeing  and finding  things such as secret
+doors, hidden  entrances or  buried items others seem to pass by.
+You  must  add  points  manually  to  "Scout"  to  increase  your
+character's proficiency.
+MUSIC:   The art  of playing  enchanted musical  instruments  and
+bringing forth from them different magical spells.
+ORATORY:   The vocal  discipline required  to properly  recite  a
+magical spell  in combat.  Without good oratory, spells meant for
+monsters may fizzle or backfire on the party.
+LEGERDEMAIN:   The ability  to pickpocket  (steal) items  or gold
+from NPCs without their knowledge or permission.
+SKULDUGGERY:   The delicate  skill of  inspecting  and  disarming
+traps on chests and picking locks on doors.
+NINJUTSU:   The legendary  art that  allows  characters  to  hide
+themselves from  their  opponents.    For  the  Ninja  and  Monk,
+proficiency in Ninjutsu helps to lower their armor class rating.
+SWIMMING:   A measurement  of your  character's ability  to  swim
+across deep  water.   Characters with  fewer than 10 skill points
+may drown from entering deep water.
+CLIMBING:   The knack  of taking  falls, climbing  into pits, and
+scaling the sides of walls without taking damage.
+
+
+                         Academia Skills
+                                
+Academia  skills  affect  a  character's  ability  to  learn  and
+understand matters  intellectual.   These skills  also affect the
+magic users'  ability to  learn and  understand  spells.    While
+Academia skills  may eventually  increase automatically,  magical
+study skills  must be  advanced manually  be adding  skill points
+whenever a character gains a level; these are studied skills, not
+practiced.   Without study,  the magician will never learn spells
+beyond the  basic.   As with all the skills, the highest amount a
+particular skill can reach is 100 points.
+
+ARTIFACTS: The  ability to  effectively use  and  invoke  magical
+items depends  on this skill. Without a developed Artifact skill,
+there is a chance the item's power will fizzle or backfire.  This
+skill also affects a character's ability to successfully assay an
+item to determine its intricacies.
+MYTHOLOGY:   The ability  to recognize, while in combat, the true
+identities of monsters.
+SCRIBE:   The ability to successfully invoke the magical power of
+a scroll during combat.
+ALCHEMY:     The  art  of  learning,  practicing  and  exercising
+Alchemist spells.
+THEOLOGY:   The pursuit  of the  divine interests  leading to the
+study of Priest spells.
+THEOSOPHY:   The possession  of mental and spiritual insight that
+allows its possessor to study Psionic spells.
+THAUMATURGY:   The path  of study  followed by the Mage and those
+who follow him to learn Mage spells.
+KIRIJUTSU:   The deadly  skill and  knowledge of  the body  which
+allows its  possessor to  strike a  vital blow  or critical area,
+hopefully killing an opponent with a single blow.
+MAPPING:   The ability  to transcribe  an accurate  record of the
+party's adventure.  The higher  the skill, the more detail (door,
+stairs, trees,  gates, etc.)  included.   This skill  requires  a
+mapping kit to be effective.
+DIPLOMACY:   The art  of negotiation and creation of mutual pacts
+and trust  between the  party and  another  group.    Allows  the
+negotiator to truce well and form alliances with NPCs.
+
+
+                         Personal Skills
+
+Lost Guardia is a world unlike any your characters have ever
+known.  Although they come prepared with a great selection of
+skills, there are still some things they might pick up along the
+way.
+
+FIREARMS:  The use of small firearms, like muskets.  This skill
+determines your character's ability to load and accurately fire
+such a weapon.
+REFLEXTION:  The ability to take small jumps so quickly - faster
+than the eye - that a double image is created.  This skill's most
+effective use is in a character's ability to avoid an attack.
+The "after image" is usually the target.
+SNAKE SPEED:  Allows characters to move with lightning reflexes,
+increasing speed in all aspects where it is a factor.
+EAGLE EYE:  The ability to target a creature with a weapon or
+spell and strike with an amazing degree of accuracy.
+POWER STRIKE:  An ability to strike a blow that does maximum
+damage - and sometimes yields more than that!
+MIND CONTROL:  Those adept in this skill can master control of
+their own minds.  This extra willpower helps them to fend off
+sleep or Psionic spells and to retain control of their own mind.
+
+     
+     
+     Appendix D:  Customer Support
+     
+                    In United States & Canada
+                                   
+           See inside front cover for support phone
+                 numbers and hours of operation
+                                     
+                                     
+                   We Appreciate Your Comments
+                                     
+ As you play Crusaders of the Dark Savant and read its manual,
+ you may  think of  ways we  can improve our products.  If you
+ do, we  want to hear from you.  It's no secret that we're out
+ to beat  the fur  leggings off other computer games, and with
+ your help and ideas we can.  Send your comments, compliments,
+ criticisms and suggestions to:
+ 
+                      Product Development
+                    Sir-tech Software, Inc.
+              P.O. Box 245, Ogdensburg, NY 13669
+                                
+                                
+           Technical Support - Available 5 days/week
+                                
+ If your  game isn't  working as  you would expect it to, feel
+ free  to   call  us   at  (315)  393-6644  (no  game  hints).
+ Technical Support  lines are  open Monday  through Friday,  9
+ a.m. to 5 p.m. (except holidays). You may also write to us.
+ 
+                       Technical Support
+                    Sir-tech Software, Inc.
+             Ogdensburg Business Center, Suite 2E
+                     Ogdensburg, NY 13669
+                                
+ When you call or write, please have ready your computer make,
+ amount of  RAM and  extended memory.    Additionally,  please
+ inform us  if your computer has any special start-up programs
+ or memory resident programs.
+     
+     
+                     Contacting the Hotline
+                                   
+ Getting a busy signal when you dial us?  When a game is first
+ released, that's  not uncommon - lots of people are trying to
+ get through.   You  may call  (315) 393-6633 during the hours
+ printed on  the inside front cover of the manual, or write to
+ us. We have someone waiting to answer your letter.
+ 
+                         Hints Hotline
+                    Sir-tech Software, Inc.
+               P.O. Box 245, Ogdensburg, NY 13669
+                                 
+ 
+                 In the United States & Canada
+ 
+ 
+                            Repairs
+  
+  If  your  disk  has  become  unreadable  within  30  days  of
+  purchase, return  it with  a dated,  original receipt to Sir-
+  tech Software,  Inc. for  a free replacement.  After 30 days,
+  enclose  $10.00  to  cover  costs  of  media  restoration  or
+  replacement and  $2.50 to  cover shipping  and handling.  (NY
+  residents, please  add 7%  sales tax  to total  of repair and
+  shipping).   Prices are  subject to  change  without  notice.
+  Please include  the following  information in  your  package.
+  Failure to do so could delay  processing time:
+     
+  ù                    Original, master diskettes
+  ù                    Warranty card (if not already sent        
+     to Sir-tech)
+  ù                    Letter explaining problem and             
+     computer configuration
+                       For free replacements within 30           
+     days, original bill of sale (will       be   returned   to
+     you)
+  ù                    For replacements after 30 days,           
+     $10.00 repair charge plus $2.50         shipping       and
+     handling fee (plus tax   if any)
+     
+     
+                             Updates
+                                   
+           Please call ahead to determine availability
+  Product updates  from Sir-tech  are available  for $15.00 for
+  media and $2.50 to cover shipping and handling (NY residents,
+  please add  7% sales  tax to  total of  repair and shipping).
+  Prices are  subject to change without notice.  Please include
+  the following  in your package.  Failure to do so could delay
+  processing time:
+  
+  ù  Original, master diskettes
+  ù  Warranty card (if not already sent to Sir-tech)
+  ù  $15.00 update  plus $2.50  shipping  and  handling  fee
+     (plus tax if applicable)
+  ù  Letter  requesting   the  update   including   computer
+     configuration required
+     
+     
+                      For the Best Service
+                                   
+  Please return your warranty registration card.  Doing so will
+  guarantee you the fastest possible repair or replacement of a
+  damaged diskette.  It also entitles you to be notified of new
+  Sir-tech products as they are released.
+                                                                 
+
+
+Appendix E:  Hints & Tips
+                                
+1.   Where's the  Start New  Game option?  Before you can start a
+new game, you need to create a party in the Character Menu.  Once
+you have created six characters, return to the Main Menu.  There,
+use the  Add Member  option.   Once you  have added  at least one
+character to the party, the Start New Game option will appear.
+2.   To new  Wizardry players, Dracons and Bards  are valuable in
+combat (they're  good for  experienced players, too).  A Dracon's
+breath attack  is highly consistent, and typically scores  damage
+to opponents.   By  creating a  Dracon magic  user or  thief, the
+character will  not become  "inactive" in  the middle of combat -
+after casting spells, the Dracon may have enough stamina left for
+a breath  attack.   The Bard,  on the  other   hand,  carries  an
+instrument that  provides endless Sleep spells!  Needless to say,
+such an item makes combat much easier.
+3.   Diplomacy is  everything.   Well, almost.   When you meet up
+with a group of NPCs, cast a Charm spell, if you have one.  Then,
+try negotiations.  The better a character's diplomacy, the better
+negotiations may go.  Additionally, remember that it might not be
+in your best interest to talk with every NPC in the village.   If
+word gets back to your other friends, why, what would they think?
+4.   Be careful  who you  expose yourself  to.  When you offer to
+trade Lore  with another  party by selecting the Lore option, you
+may learn all they know about the area and their quest.  However,
+you tell them everything you know in return!
+5.   Good notes  are important as extra insurance.  You can refer
+to them  to see  if you've  missed something or to recall certain
+information you might need.
+6.   If you're  relatively safe  in an  encounter,  let  as  many
+characters as possible rest to regain some stamina.
+7.   Spells that  incapacitate monsters (such as Sleep) are great
+to use.   While  the monsters  are sleeping,  you can  rest  your
+characters up,  too.   Also, you'll  get some  great swings in on
+them.
+8.   Some places  on Lost Guardia seem safer to rest than others.
+Monsters are more likely to find your party if they're camped out
+in the center of a great hall versus a small, enclosed room.
+9.   Avoid  killing  NPCs  until  you're  sure  they  don't  have
+something you need.  Once you kill and NPC, he or she is gone for
+good.
+10.  When you encounter a new monster, don't hold back, and don't
+assume it's  easy to kill.  Later, when you know what spells work
+on it and what it can do to you, you can relax a little.
+11.  Be thorough.  Read messages carefully.  You never know where
+you might be able to find or use something.
+12.   If you're dealing with more than one group, you may want to
+kill off  groups with  single monsters  first.   In this way, the
+tough monsters  with lots of spells can't retreat to the rear out
+of your  fighters' range.  Sometimes, however, the reverse may be
+desirable.
+13.   Have fun.   Even  when the  going gets  tough, and you feel
+hopelessly stuck.   There  is a  way out.   Check  all the  walls
+around you.   Remember  messages you've read or check your notes.
+Or call  us Monday  to Friday,  4 p.m. to 8 p.m. and weekends, 12
+noon to 6 p.m.  We'll get you out.
+   
+   
+   
+            The Ultimate in Hints, Tips and Information
+            for the seasoned or the new Wizardry player.
+                                   
+                    Crusaders of the Dark Savant
+                      Playmaster's Compendium
+                                   
+       Everything you ever wanted to know about Crusaders of
+      the Dark Savant is discussed.  You'll find strategies to
+             help you create the definative party plus:
+                                   
+                              ù  Maps
+                      ù  Monster  & Item Stats
+                  ù  Interview with David Bradley
+                    ù  Interviews with all NPCs!
+                              & more!
+                                   
+                               $19.95
+                                   
+                  Call  (315) 393-6633 to order or
+                     Visit your local retailer!
+              (price subject to change without notice)
+   
+
+     
+     
+     
+                           Disclaimer
+     
+     Neither  Sir-tech   Software,  Inc.,   the   author(s),
+     distributor(s) or  seller(s) of this product shall have
+     any liability or responsibility to the purchaser or any
+     other person  or entity  with respect to any liability,
+     loss or  damage caused or alleged to be caused directly
+     or  indirectly  by  this  product,  including  but  not
+     limited  to   any  interruption  of  service,  loss  of
+     business  and  anticipatory  profits  or  consequential
+     damages resulting  from the  use or  operation of  this
+     product. This product will be exchanged if defective in
+     the manufacture,  labeling or packaging, but except for
+     such replacement  the sale  or subsequent  use of  this
+     program material is without warranty or liability.
+     
+     Note:   This product  is copyrighted and all rights are
+     reserved.   The distribution  and sale  of this product
+     are intended for personal use of the original purchaser
+     only, and  for  use  only  on  the  computer  system(s)
+     specified herein.  Renting this product, or duplicating
+     and selling  or renting  or otherwise distributing this
+     product, in any form, is hereby expressly prohibited.
+     
+     
+     
+     
+     
+     
+
+
