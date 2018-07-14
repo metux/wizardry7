@@ -1,0 +1,6 @@
+wizardry7 (0.1) xenial; urgency=low
+
+  * Packaging for debian
+  * should be release/flavour agnostic
+
+ -- Enrico Weigelt, metux IT consult <info@metux.net>  Sat, 14 Jul 2018 13:00:00 +0200

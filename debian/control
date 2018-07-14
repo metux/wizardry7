@@ -1,0 +1,12 @@
+Source: wizardry7
+Maintainer: Enrico Weigelt, metux IT consult <info@metux.net>
+Section: games
+Priority: optional
+Build-Depends: make
+Standards-Version: 3.9.7
+
+Package: wizardry7
+Architecture: all
+Section: games
+Depends: ${misc:Depends}, dosbox
+Description: Wizardry7 - Crusaders of the dark savant
