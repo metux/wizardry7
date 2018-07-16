@@ -1,0 +1,43 @@
+----- Revision History -----
+
+-----------------------------------------------------------------------------
+11-12-95  Fixed problem which appeared when the "Pandora's Wand" item was
+          - chosen from the "List" option on the Item Editing screen
+
+          Added in User Check for MAX characters options since the keystroke
+          - matches the enter key
+
+          Added ability to modify the weight of an item
+
+          Added Current Item Breakdown for highlighted item on Item Editing
+          - screen
+
+          Fixed bug in Item list which caused some keystrokes to be accepted
+          - incorrectly when on the Help screen
+
+          Fixed bug in which couldn't move across columns when editing
+          - resistances
+
+          version is now 1.01
+
+
+-----------------------------------------------------------------------------
+12-02-95  Modified help screen for items so that there is an explanation
+          - for the '=/' symbols in the names of items
+
+-----------------------------------------------------------------------------
+02-26-96  Found Map and SubMap values and integrated them into the "Modify
+          Position" option
+
+          Fixed bug with Program not restoring cursor when program is ran and
+          then no game is selected and program terminates
+
+          Version is Now 1.1
+
+-----------------------------------------------------------------------------
+02-26-96  Added in some valid values for places to go to in Change Position
+          screen
+
+-----------------------------------------------------------------------------
+10-14-96  Fixed a bug when changing the values for the charges and weight and
+          finalized this release.      

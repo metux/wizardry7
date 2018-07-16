@@ -1,0 +1,37 @@
+--- DISCLAIMERS!!!! ----
+
+If anything happens to you, your system, any of your files, any system
+attached to your system, or any files on another system attached to your
+system  It's not my fault.  You get this and all programs attached to it
+as-is with no warranty implied or otherwise.
+
+in plain english:
+  If anything happens because of this or any other program packed with it
+it is NOT MY FAULT.  you are using them at YOUR OWN RISK!
+
+If I use any language in this file which offends you.  TOUGH!!!
+The United States  of America is a free country and I use my right to
+free speech.
+
+
+if you want to e-mail me then you can reach me at:
+        slannesh@pacbell.net
+
+Does anyone want these utilities for Windows?
+
+-----------------------------------------------------------------------------
+DIRECTIONS: (DSITEMS)
+
+  Run the program in the directory where the "SCENARIO.DBS" or "SCENARIO.GLD"
+  file is located and it will generate a complete item list, lists of items
+  by certain catagories, and a spell reference list.  you might want to
+  redirect the output to a file or the printer to make a copy for yourself.
+
+  DOS command example:
+    DSITEMS > itemlist.txt
+
+
+1.1 release notes:
+  This now supports the wizardry gold scenario file without having to have
+  it renamed.
+

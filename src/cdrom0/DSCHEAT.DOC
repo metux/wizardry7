@@ -1,0 +1,201 @@
+ --- DISCLAIMERS!!!! ----
+
+If anything happens to you, your system, any of your files, any system
+attached to your system, or any files on another system attached to your
+system  It's not my fault.  You get this and all programs attached to it
+as-is with no warranty implied or otherwise.
+
+in plain english:
+  If anything happens because of this or any other program packed with it
+it is NOT MY FAULT.  you are using them at YOUR OWN RISK!
+
+If I use any language in this file which offends you.  TOUGH!!!
+The United States  of America is a free country and I use my right to
+free speech.
+
+----------------------------------------------------------------------------
+Now that that is out of the way we can get to the meat of it!
+
+
+This is the Crusaders of the Dark Savant Savefile editor DSCHEAT v1.1
+
+What you have here represents many hours of searching, sorting, and delving
+into the structures of the savefiles.
+
+It is the most complete editor I have ever seen for Crusaders of the Dark
+Savant and I hope you like it.  (I happen to have a biased opinion since
+I wrote the damn thing!)
+
+I suggest you back up all of your save files before ever using any program
+which modifies them on the off chance that some random bit of fuzz in the
+air decides to short across some vital portion of your computer causing any
+problems or crashes while using any program.  BACK IT UP!!!!!!!!
+in specific back up your "SCENARIO.DBS" file before using my program.  I
+haven't written any code which would change it, but you never know with
+random fuzz!!!
+
+
+This program was born out of the obsessive need by my girlfriend to be able
+to complete any game set in front of her (god bless her!!! she's a game
+manufacturer's fantasy).  She got stuck one weekend and started bitching
+and fuming about not being able to do anything (she's a little melodramatic
+sometimes)  So I said I'd write her an editor for her characters and give
+her the ability to go around doors by modifying her position in the save
+file.  It turns out I found out a whole lot more about the savefile and
+started on what you now have.  She still uses it when she plays the game
+even though she's finished it a couple of times.  This program sat around
+my computer for about a year and a half so I figured I would finish
+the job I started and make it so other people could use it.
+
+I hope you enjoy it.
+
+
+----------------------------------------------------------------------------
+DIRECTIONS: (DSCHEAT)
+
+  1. Run the program.  That's it!
+
+  You can supply a filename at the command line and when the program starts
+  up it will insert that filename into the save file box and then all you will
+  have to do is to hit enter.  This is there so that you can set up a batch
+  file to help modify any of your game save files.
+
+    example
+      DSCHEAT SAVEGAME.DBS
+
+  Pandora's Wand ( Item# 300 ) has so many powers that I could not make it fit
+  into the amount of space that I had on a screen so I had to compact it as
+  much as possible to make it fit.  The proper line for pandora's wand should
+  be:
+    PANDORA'S/WAND  3-7 (+1)  Sp:5 (L:4)  ( Dazzling Lights Level 4 )
+                              Sleep 15%
+                              Paralyze 15%
+                              Poison 15%
+                              Stone 3%
+                              Drain 10%
+                              KIA 1%
+
+
+  While actually playing the game I found that all of the statistics can go to
+  19 and not ever have a chance of crashing the game (that I know about!).  I
+  seem to recall that I have even had a 20 karma at one time or another. You can
+  actually have higher values that will work (and not crash DS) but I chose not
+  to restrict the user's ability to enter in values.  I have tested values up to
+  about 22 and they appear to work okay.  There was no marked improvement from
+  20+ values so I assume DS's internal "tables" of information stop at 19.
+  When I wrote the "Max characters" routine I chose very "Safe" values all the
+  way across the board that way there wouldn't be any problems if the typical
+  user decided to go in max their characters and then go back to the game.  You
+  can have up to 32767 spell points, 32767 hit points, and 32767 stamina.  The
+  game will almost always crash if the number ever goes higher than those values
+  ( like when you go up a level and it adds hit points, spellpts, etc).  If
+  those values are set at something like 32000 it normally works just fine.  I
+  don't know how DS will react with some of the game patches that are available
+  since they might have modified the program somewhat from the version that I
+  have.  As always be careful with what you tamper with.
+
+  WORDS OF WISDOM:
+    Your skills values should NEVER go above 100.  This normally crashes the
+    game when you go up a level, although sometimes DS will keep going and do
+    wierd things later on.  For instance I've had it "forget" to repaint the
+    screen and then I had all of these little tracers and ghosts ( pieces of
+    pictures ) sitting on the screen.
+
+
+CHARACTER NAMES:
+  If you have a game save file which has less than 6 characters in it DSCHEAT
+  will ask you when it encounters something that it thinks isn't a valid
+  character name.  At which point you can tell the program if it is a good
+  name.  If you tell DSCHEAT that an invalid character name is actually a
+  valid one   and then change some of the values then there is a strong
+  possiblity that you have really screwed up your save file.  So the moral
+  here is: DON'T!!
+  if on the odd chance an invalid name slips past the invalid name detector
+  DON'T MODIFY IT.  Leave it alone.  Also Don't MAX out your characters, in
+  this case do each one individually.  If this happens I would like to get
+  some e-mail about it so maybe I can figure out what it was that happened.
+
+
+CHANGE POSITION OPTION:
+  DSCheat allows you to modify your party's position in the game.  A few of
+  the more common places are listed along with their corresponding values
+  so you don't have to remember them.
+
+
+ITEM EDITING:
+  DSCheat allows you to edit the items that are being held by any of your
+  characters.  In order to do this correctly DSCheat must have access to
+  the "SCENARIO.DBS" file from the Crusaders of the Dark Savant game
+  directory.  If this file is not accessible DSCheat will inform you of this
+  fact and ask if you wish to continue.  If you choose to continue then
+  when you go in to change the character's items you will have to drop
+  the item that you changed onto the ground and then pick it back up so that
+  Dark Savant's internal values can be reset to what the item should be.
+  If you do not do this then there is a strong possibility that the game
+  might crash.  Also there are a couple of unknown items which are in the
+  middle of the valid items and if you choose them, there is also the
+  possibility that the game will crash if your character has them.  All of
+  the invalid items have the name '-?-'.   So be careful.
+
+
+SAFE EDITING OPTION:
+  When the "Safe Editing" option is turned on DSCheat will not let you
+  enter in any values which are known to crash Dark Savant.  It defaults to
+  on so that people who don't want to mess around can just go straight to
+  editing.
+
+
+SAVE/LOAD PLAYER OPTIONS:
+  These options are for people who really want to play around with their
+  save files and rearrange their characters outside of DS, Copy characters
+  from one file to another or just plain look at the character information
+  using a hex editor or the like.  The options are not documented very well,
+  you have to remember the filenames you use, and I don't intend to make
+  any changes to these unless there is some real problem.  They are for the
+  "hackers" out there.
+
+
+(** NEW FOR VERSION 1.1 **)
+
+COMMANDLINE OPTIONS:
+  You can now call DSCheat from the command line to do most of the common
+  operations that you might want to do everytime you go into Dark Savant.
+  Such as Healing all characters, removing all ailments, etc.
+
+  Type "DSCheat /?" for more information on this.
+
+  Insert a line into the batch file that starts up Dark Savant to do this
+  automatically!
+
+----------------------------------------------------------------------------
+
+I would like to thank D.W. Bradley and Sir-Tech software for making a really
+good game.  Great puzzles, good graphics, sound is a little annoying at
+times but it's good nonetheless.  All around good!!!!!
+Can't wait to see the new "Super VGA version!!!"
+
+----------------------------------------------------------------------------
+if you have any bug reports or would like to contribute something to this
+editor, or for that matter just wish to contact me to tell me that I wrote
+a damn good editor, please do so!!!!!  My e-mail address is currently:
+              slannesh@pacbell.net
+
+
+p.s. Does anyone want a windows version of this program?
+
+Signed,
+Michael P. Schneider
+
+
+
+
+Wizardry VII and Crusaders of the Dark Savant is a registered trademark of
+Sir-Tech software, Inc  Reg'd TM in Canada and other countries.
+Crusaders of the Dark Savant application software is Copyright 1992 by
+Sir-Tech software, Inc and D.W. Bradley.
+
+
+
+After thoughts:
+  In case your interested there is a revision file called DSCHEAT.REV
+which lists all of the bugs, corrections, and additions.
