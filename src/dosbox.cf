@@ -28,11 +28,10 @@ ems=true
 
 [autoexec]
 keyb gr
-mount c ~/.dos/darksavant/disk0
-mount d /usr/share/dos/darksavant/cdrom0 -type cdrom
+mount c ~/.dos/wizardry7/disk0
+mount d /usr/share/dos/wizardry7/cdrom0 -type cdrom
 d:
 cd \w7
-#wizardry
 ds.exe
 echo "terminated"
 exit
