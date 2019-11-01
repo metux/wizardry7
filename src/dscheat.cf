@@ -1,0 +1,40 @@
+[dosbox]
+memsize=16
+#language=de
+#language=deutsch.lng
+
+[render]
+frameskip=0
+#scaler=supereagle
+aspect=false
+
+[sdl]
+fullresolution=original
+fullscreen=true
+fulldouble=false
+fullfixed=false
+windowresolution = 1024x786
+output=surface
+hwscale=1.00
+autolock=true
+sensitivity=50
+waitonerror=true
+priority=higher,normal
+mapperfile=mapper.txt
+
+[dos]
+xms=true
+ems=true
+
+[autoexec]
+keyb gr
+mount c ~/.dos/wizardry7/disk0
+mount d /usr/share/dos/wizardry7/cdrom0 -type cdrom
+d:
+cd \
+dscheat.exe
+echo "terminated"
+exit
+
+[cpu]
+;cycles=40000

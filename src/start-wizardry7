@@ -1,0 +1,30 @@
+#!/bin/sh
+
+PREFIX=/usr/share/dos/wizardry7
+HPREFIX=$HOME/.dos/wizardry7
+SRC=$PREFIX/disk0/WIZ-CD/7
+DST=$HPREFIX/disk0/WIZ-CD/7
+FILES="PCFILE.DBS SCENARIO.HDR"
+
+CONF_HOME=$HPREFIX/wizardry7.cf
+CONF_ETC=/etc/dos/wizardry7.cf
+CONF_MASTER=$PREFIX/wizardry7.cf
+
+# on first start, we need to copy some binary config files
+# to the user's homedir, as they need to be writable for
+# the game. these files are created by VINSTALL.EXE
+mkdir -p $DST
+for f in $FILES ; do
+    [ -f $DST/$f ] || cp $SRC/$f $DST
+done
+
+# check which dosbox config to use
+if [ -f $CONF_HOME ]; then
+    CONF="$CONF_HOME"
+elif [ -f $CONF_ETC ]; then
+    CONF="$CONF_ETC"
+else
+    CONF="$CONF_MASTER"
+fi
+
+dosbox -conf $CONF

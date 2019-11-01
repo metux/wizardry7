@@ -6,9 +6,9 @@ SRC=$PREFIX/disk0/WIZ-CD/7
 DST=$HPREFIX/disk0/WIZ-CD/7
 FILES="PCFILE.DBS SCENARIO.HDR"
 
-CONF_HOME=$HPREFIX/dosbox.cf
-CONF_ETC=/etc/dos/wizardry.cf
-CONF_MASTER=$PREFIX/dosbox.cf
+CONF_HOME=$HPREFIX/dscheat.cf
+CONF_ETC=/etc/dos/dscheat.cf
+CONF_MASTER=$PREFIX/dscheat.cf
 
 # on first start, we need to copy some binary config files
 # to the user's homedir, as they need to be writable for
